@@ -1,0 +1,373 @@
+{% assign id = section.id %}
+<style>
+     .section-container--{{ section.id }}{
+       margin-top: {{ section.settings.margin_top | append:'px' }};
+       margin-bottom: {{ section.settings.margin_bottom | append:'px' }};
+       padding-top: {{ section.settings.padding_top | append:'px' }};
+       padding-bottom: {{ section.settings.padding_bottom | append:'px' }};
+       overflow: hidden;
+       background: #FEF9F2;
+     }
+     .container-{{ id }} {
+
+     }
+     .img-wrapper-{{ id }} img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 120px 120px var(--rounded-none, 0px) var(--rounded-none, 0px);
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+     }
+    .info-{{ id }} {
+        position: relative;
+        z-index: 4;
+    }
+    .info-{{ id }} h3{
+        font-size: 30px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        margin: 16px 0 8px;
+    }
+    .info-{{ id }} p{
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+      font-style: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      margin-block: inherit;
+    }
+  /* card style ...................................... */
+    .card-{{ id }} {
+      padding: 24px;
+      border-radius: 0px;
+      border: 1px solid #E7E5E4;
+      box-sizing: border-box;
+    }
+
+    .card-{{ id }} .user{
+        display: flex;
+        {% comment %} justify-content: space-between; {% endcomment %}
+        line-height: 18px;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .card-{{ id }} .user p{
+        margin: 0;
+        color: var(--Color-Dark-500, #0B0404);
+
+        /* Text lg/Medium */
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 27px */
+    }
+    .card-{{ id }} .rte{
+        color: #44403C;
+        font-size: 16px;
+        line-height: 150%;
+        font-weight: 400;
+        margin: 0 0 24px;
+    }
+    .container-{{ id }} .btn-wrapper{
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
+        width: max-content;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(0,-98px);
+        z-index: 3;
+        @media(max-width: 600px) {
+        top: 24px;
+        }
+    }
+  .section-container--{{ id }} .hero_slider__nav_icon {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        background: #AA7248;
+        line-height: 1;        
+        border: 1px solid #E7E5E4;
+        top: unset;
+        z-index: 1;
+        color: #fff;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+     @media(max-width: 600px) {
+       {% comment %} display: none; {% endcomment %}
+     }
+  }
+  .section-container--{{ id }} .hero_slider__nav_icon svg path {
+    stroke: currentColor;
+  }
+  .section-container--{{ id }} .hero_slider__nav_icon.swiper-button-disabled {
+    background: #ffffff47;
+    backdrop-filter: blur(10px);
+    color: #000;
+  }
+  .info-wrapper-{{ id }} {
+    overflow: unset;
+  }
+  .swiper__btn__wrap {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    position: absolute;
+    bottom: var(--Spacing-Container-xl);
+    right: var(--Spacing-Container-xl);
+  }
+  .prev-{{ section.id }}.hero_slider__nav_icon {
+    position: relative;
+  }
+  .next-{{ section.id }}.hero_slider__nav_icon {
+    position: relative;
+  }
+   @media screen and (max-width: 768px){
+     .section-container--{{ section.id }}{
+       margin-top: {{ section.settings.margin_top_mobile | append:'px' }};
+       margin-bottom: {{ section.settings.margin_bottom_mobile | append:'px'  }};
+       padding-top: {{ section.settings.padding_top_mobile | append:'px' }};
+       padding-bottom: {{ section.settings.padding_bottom_mobile | append:'px' }};
+     }
+    .card-{{ id }} .rte{
+      margin-top: 16px;
+    }
+    .card-{{ id }} {
+      padding: 16px;
+    }
+     .container-{{ id }}{
+        grid-template-columns: 1fr;
+     }
+    .info-{{ id }} {
+        padding-bottom: 60px;
+    }
+    .info-{{ id }} h2{
+      /* H2/Mobile */
+      font-family: Minakoe;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 36px; /* 112.5% */
+    }
+  }
+
+
+  .section-container--{{ id }}{
+.--section-title{
+color: var(--Color-Dark-500, #0B0404);
+
+/* md/Regular */
+font-family: Prata;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 129%; /* 46.44px */
+letter-spacing: -0.72px;
+    @media(max-width: 768px){
+      font-size: 30px;  
+     }
+}
+  
+  
+  }
+
+</style>
+<section class="section-container--{{ id }}">
+  <div class="container-{{ id }} page-width">
+    <h2 class="--section-title">{{ section.settings.title }}</h2>
+    <div class="info-{{ id }}">      
+      <div class="swiper info-wrapper-{{ id }}">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="card-{{ id }} swiper-slide">
+                <div class="review__wrapper">
+              <div class="user">
+                {% unless block.settings.user_img == blank %}
+                  {{ block.settings.user_img | image_url: width: 40 | image_tag }}
+                {% endunless %}
+                <p>{{ block.settings.username }}</p>
+              </div>
+              <h3>{{ block.settings.title }}</h3>
+              <div class="rte">{{ block.settings.desc }}</div>
+              {% render 'all-icons', name: 'rating' %}
+            </div></div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="btn-wrapper">
+        <div class=" prev-{{ section.id }} hero_slider__nav_icon">{% render 'all-icons', name: 'left_arrow' %}</div>
+        <div class=" next-{{ section.id }} hero_slider__nav_icon">{% render 'all-icons', name: 'right_arrow' %}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+     new Swiper(".info-wrapper-{{ id }}", {
+      slidesPerView: 1.15,
+      spaceBetween: 16,
+      breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1.15,
+          spaceBetween: 16
+        },
+        // when window width is >= 640px
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 32
+        }
+      },
+      navigation: {
+        nextEl: ".next-{{ section.id }}",
+        prevEl: ".prev-{{ section.id }}",
+      },
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Custom Review",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "title"
+    },
+    {
+      "type": "header",
+      "content": "Desktop Spacing"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Mobile Spacing"
+    },
+    {
+      "type": "range",
+      "id": "margin_top_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Top (Mobile)",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Bottom (Mobile)",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top  (Mobile)",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom  (Mobile)",
+      "default": 20
+    }
+  ],
+  "blocks": [
+    {
+      "name": "review",
+      "type": "text",
+      "settings": [
+        {
+            "type": "image_picker",
+            "id": "user_img",
+            "label": "image User"
+        },
+        {
+          "type": "text",
+          "id": "username",
+          "label": "Username"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"            
+        },
+        {
+          "type": "richtext",
+          "id": "desc",
+          "label": "Description"
+        },
+        {
+            "type": "image_picker",
+            "id": "rating_img",
+            "label": "image Rating"
+        },        
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Review"
+    }
+  ]
+}
+{% endschema %}

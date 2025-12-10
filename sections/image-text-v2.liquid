@@ -1,0 +1,398 @@
+{% liquid
+  assign id = section.id
+%}
+
+<style>
+    #shopify-section-{{id}} {
+      box-sizing: border-box;
+      margin-top: {{section.settings.margin_top | append: 'px'}};
+      margin-bottom: {{section.settings.margin_bottom | append: 'px'}};
+      padding-top: {{section.settings.padding_top | append: 'px'}};
+      padding-bottom: {{section.settings.padding_bottom | append: 'px'}};
+      background: {{  section.settings.bg }};
+    }
+
+    @media(max-width: 600px) {
+      #shopify-section-{{id}} {
+        margin-top: {{section.settings.margin_top_m | append: 'px'}};
+        margin-bottom: {{section.settings.margin_bottom_m | append: 'px'}};
+        padding-top: {{section.settings.padding_top_m | append: 'px'}};
+        padding-bottom: {{section.settings.padding_bottom_m | append: 'px'}};
+      }
+    }
+     @media(max-width: 1300px) {
+        .--section-title {
+            margin: 0 0 32px;
+        }
+    }
+  .wrapper-{{ id }} {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+      @media(max-width: 990px) {
+        grid-template-columns: 1fr;
+        gap: var(--Spacing-Container-lg, 24px);
+      }
+
+
+  .--image-wrapper {
+      overflow: hidden;
+      @media(max-width: 600px) {
+         grid-row: 1/2;
+       }
+    img {
+      width: 100%;
+    }
+
+  }
+
+  .--text-block-container.--text-first {
+      padding-right: var(--Spacing-Container-xl);
+       @media(max-width: 600px) {
+         padding-right: unset;
+       }
+  }
+  .--text-block-container.--text-last {
+      padding-left: var(--Spacing-Container-xl);
+      @media(max-width: 600px) {
+         padding-left: unset;
+       }
+  }
+  .--text-block-container a{
+      width: max-content;
+  }
+
+  h3.--title {
+      color: #000;
+      font-family: var(--font-heading-family);
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      margin-block: 0 var(--Spacing-Container-xxs);
+      letter-spacing: 0.2px;
+  }
+
+  .--content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0 0 44px;
+    @media(max-width: 1300px) {
+        margin: 0 0 24px;
+        gap: 16px;
+    }
+   .index {
+    color: #AA7248;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Prata;
+    font-size: 42.857px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 60px */
+    letter-spacing: -0.857px;
+    margin: 0;
+    line-height: 100%;
+    padding: 25px 20px;
+    @media(max-width: 1300px) {
+        padding: 16px 12px;
+        font-size: 32px;
+    }
+    @media(max-width: 600px) {
+        font-size: 28px;
+    }
+   }
+   .bullet {
+        color: var(--Color-Gray-700, #44403C);
+
+        /* Text md/Medium */
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        @media(max-width: 600px) {
+            font-size: 14px;
+        }
+        strong{
+        color: var(--Color-Dark-500, #0B0404);
+        font-family: Prata;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: -0.6px;
+        display: block;
+        @media(max-width: 1300px) {
+            font-size: 22px;
+        }
+        @media(max-width: 600px) {
+            font-size: 20px;
+        }
+      }
+    }
+
+  }
+
+
+
+
+
+
+
+  .--icon-card-container {
+      display: flex;
+      gap: var(--Spacing-Container-lg);
+  }
+  .--card-wrapper {
+      text-align: center;
+      color: #000;
+      font-family: var(--font-family-Body, "Neue Plak");
+      font-size: var(--Font-Size-Paragraph-Small, 14px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Line-Height-Paragraph-Small, 20px);
+      img {
+        max-width: 50px;
+        aspect-ratio: 1;
+        margin: 0 auto var(--Spacing-Container-xs);
+      }
+  }
+  }
+</style>
+
+<div class="sec-{{ id }}">
+  <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+    {% if section.settings.show_top_heading %}
+      {% unless section.settings.heading == blank %}
+        <div class="--section-title">
+          <h2 class="--section-title center" style="margin: 0;">{{ section.settings.heading }}</h2>
+          <P class="subheading center">{{ section.settings.subheading }}</P>
+        </div>
+      {% endunless %}
+    {% endif %}
+
+    <div class="wrapper-{{ id }}">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'image' %}
+            <div class="--image-wrapper">
+              {{ block.settings.image | image_url: width: block.settings.image.width | image_tag }}
+            </div>
+          {% when 'text' %}
+            <div class="--text-block-container {% if forloop.first %} --text-first {% else %}--text-last{% endif %}">
+              {% unless section.settings.show_top_heading %}
+                {% unless section.settings.heading == blank %}
+                  <h2 class="--section-title">{{ section.settings.heading }}</h2>
+                  <P>{{ section.settings.subheading }}</P>
+                {% endunless %}
+              {% endunless %}
+              <h3 class="--title">{{ block.settings.title }}</h3>
+              {% for block in section.blocks %}
+                {% if block.type == 'bullets' %}
+                  <div class="--content">
+                    <span class="index">{{ block.settings.index }}</span>
+                    <div class="bullet">{{ block.settings.bullet }}</div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+              {% unless block.settings.label == blank %}
+                <a class="button full" href="{{ block.settings.btn_url }}">
+                  {{- block.settings.label -}}
+                  {% comment %} <span>{% render 'all-icons', name: 'btn_arrow' %}</span>{% endcomment %}
+                </a>
+              {% endunless %}
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image Text V2 ",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full Width Section",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subheading",
+      "label": "Sub Heading"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_top_heading",
+      "label": "Show heading at top",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "bg",
+      "label": "Background Color",
+      "default": "#FEF9F2"
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing Desktop"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 48
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing Mobile"
+    },
+    {
+      "type": "range",
+      "id": "margin_top_m",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_m",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_m",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_m",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 32
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "name": "Bullets",
+      "settings": [
+        {
+          "type": "text",
+          "id": "index",
+          "label": "Index"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "bullet",
+          "label": "bullet"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text Block",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Button Label",
+          "default": "SHOP NOW"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Text V2 "
+    }
+  ]
+}
+{% endschema %}

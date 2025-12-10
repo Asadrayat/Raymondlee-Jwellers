@@ -1,0 +1,612 @@
+{% comment %} {{ 'component-card.css' | asset_url | stylesheet_tag }} {% endcomment %}
+{% assign id = section.id %}
+{% style %}
+  #shopify-section-{{section.id}} {
+    box-sizing: border-box;
+    padding-block: {{section.settings.padding_block_desktop}};
+    {% unless section.settings.background_image == blank %}
+      background-image: url({{section.settings.background_image | image_url: width: section.settings.background_image.width }});
+      background-repeat: no-repeat;
+      background-size: cover;
+    {% else %}
+      background-color: {{ section.settings.bg_color }};
+    {% endunless %}
+     @media(min-width: 768px) {
+    .new-fc-list-btn {
+        aspect-ratio: unset;
+      }
+    }
+    .swiper-grid-column>.swiper-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* max-height: 1800px; */
+        max-width: 100%;
+        width: 100% !important;   
+        max-height: 100vh;    
+    }
+    .swiper, .swiper-slide, .new-fc-body {
+        box-sizing: border-box        
+    }
+    .content__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        gap: 12px;
+        position: relative;
+        z-index: 2;
+        transition: all 0.4s;
+    }    
+    .mfc__nav-scroll__wrapp {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }    
+    .hidden-collection{
+      display: none;
+    }
+
+    .full-width{
+      padding-inline: 40px;
+    }
+
+    .new-fc-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: stretch;
+        align-items: stretch;
+        gap: var(--Spacing-Container-xl);
+        @media(max-width: 768px) {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+    }
+      @media(max-width: 768px) {
+        gap: 24px;
+        padding-block: {{section.settings.padding_block_mobile}};
+      }
+    }
+    .new-fc-header {
+      display: flex;
+      /* flex-direction: column-reverse; */
+      flex-direction: column;
+      align-items: {{ section.settings.heading_alignment }};
+      gap: calc(8px + var(--Spacing-Container-md, 24px));
+        min-width: 100%;
+      @media(max-width: 768px) {
+        display: flex;
+        gap: 24px;
+        align-items: {{ section.settings.heading_alignment }};
+        flex-direction: column;
+      }
+    }
+
+    .new-fc-header h2{
+      margin: 0;
+      color: #000;
+      text-align: left;
+      font-size: var(--Font-Size-Heading-H2);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Line-Height-Heading-H2);
+      letter-spacing: -0.96px;
+
+      @media(max-width: 768px) {
+        text-align: center;
+        font-size: var(--Font-Size-Heading-H2, 30px);
+        line-height: var(--Line-Height-Heading-H2, 36px);
+        letter-spacing: -0.6px;
+      }
+    }
+    .new-fc-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        position: relative;
+        justify-items: stretch;
+        align-items: stretch;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #E7E5E4;
+    }
+    .new-fc-list:after{
+      /* position: absolute;
+      content: "";
+      background: #00402754;
+      width: 100%;
+      height: 2px;
+      bottom: -8px;
+      left: 0;
+      z-index: 1; */
+    }
+    .new-fc-list-btn {
+      color: #000;
+      /* font-family: var(--font-family-Body, "Sainte Colombe"); */
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      border: none;
+      position: relative;
+      padding: 0 12px;
+      margin: 0;
+      z-index: 2;
+      transition: all 0.15s;
+      box-sizing: border-box;
+      @media(max-width: 768px) {}
+        height: auto;
+        aspect-ratio: 1;   
+      @media(max-width: 430px) {
+        aspect-ratio: 4 / 7;        
+      }
+      &:first-child {
+        padding-inline: 0 8px;
+      }
+      &:last-child {
+        padding-inline: 8px 0;
+      }
+    }
+    .new-fc-list-btn:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #E7E5E4;
+        z-index: 1;
+      
+    }
+    .new-fc-list-btn.active{
+      /* border: 1px solid transparent; */
+      font-size: 16px;
+      line-height: 150%;      
+      .content__wrap {
+        color: #fff;
+      }
+      img {
+        filter: invert(1);
+      }
+    }
+    .new-fc-list-btn:hover   {
+    .content__wrap {
+         color: #fff;
+        }
+        img {
+            filter: invert(1);
+        }  
+    }
+    .new-fc-list-btn:hover:after {
+      background:#7f7f7f;
+    }
+    .new-fc-list-btn.active:after {
+        border: 1px solid transparent;
+        background: #AA7248;      
+    }
+    .next-{{ section.id }} {
+      right: 0
+    }
+    .button__wrapper_swiper {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        justify-content: end;
+    }    
+    .new-fc-footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .new-fc-view-all-btn {
+      display: block;
+      color: var(--Content-Base-main, #1f2937);
+      text-align: center;
+      font-family: var(--font-family-Control, "Archivo Expanded");
+      font-size: var(--Font-Size-UI-Controls-Control-Button-Small, 16px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Line-Height-UI-Controls-Control-Button-Small, 16px);
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-decoration-skip-ink: none;
+      text-decoration-thickness: auto;
+      text-underline-offset: auto;
+      text-underline-position: from-font;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    .new-fc-view-all-btn_ {
+      color: #FFF;
+      width: max-content;
+      margin: auto;
+      text-align: center;
+      font-family: "Aktiv Grotesk";
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%;
+      text-transform: uppercase;
+      box-sizing: border-box;
+      border: 0;      
+      cursor: pointer;
+      border-radius: var(--rounded-none, 0px);
+      background: linear-gradient(90deg, #010D05 0%, #132D1B 100%);
+      display: flex;
+      padding: var(--Spacing-Container-sm, 12px) var(--Spacing-Container-lg, 32px);
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      align-self: stretch;
+      border: 1px solid #004027;
+      transition: all 0.4s;
+      margin: 0;
+    }    
+     .container-{{ section.id }} .hero_slider__nav_icon {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        background: #AA7248;
+        line-height: 1;        
+        border: 1px solid #E7E5E4;
+        top: unset;
+        z-index: 1;
+        color: #fff;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+     @media(max-width: 600px) {
+       /* display: none; */
+     }
+  }
+  .section-container--{{ id }} .hero_slider__nav_icon svg path {
+    stroke: currentColor;
+  }
+  .container-{{ section.id }} .hero_slider__nav_icon.swiper-button-disabled {
+    background: #ffffff47;
+    backdrop-filter: blur(10px);
+    color: #000;
+  }
+  .info-wrapper-{{ id }} {
+    overflow: unset;
+  }
+  .swiper__btn__wrap {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    position: absolute;
+    bottom: var(--Spacing-Container-xl);
+    right: var(--Spacing-Container-xl);
+  }
+  .prev-{{ section.id }}.hero_slider__nav_icon {
+    position: relative;
+  }
+  .next-{{ section.id }}.hero_slider__nav_icon {
+    position: relative;
+  }
+        .prev-{{ section.id }}.--nav-icon {
+          /* left: -20px; */
+          /* left: 0px; */
+        }
+        .next-{{ section.id }}.--nav-icon {
+          /* right: -20px; */
+          /* right: 0px; */
+        }
+      }
+  }
+{% endstyle %}
+<style>
+  @media(max-width: 768px) {
+    .new-fc-wrapper .--section-title {
+        margin: 0 0 8px;
+    }  
+  }
+
+
+</style>
+{% liquid
+  assign selected_collection = section.blocks.first.settings.collection
+%}
+
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+<div
+  id="{{ section.settings.nav_id }}"
+  class="{% if section.settings.full_width_section %}full-width{% else %}page-width{% endif %} container-{{ section.id }}"
+>
+
+    <div class="mfc__nav-scroll__wrapp desktop-only">
+    <h2 class="--section-title">{{ section.settings.heading }}</h2>
+    <div class="button__wrapper_swiper">
+      <div class="prev-{{ section.id }} --nav-icon hero_slider__nav_icon">
+        {% comment %}
+          {% render 'all-icons', name: 'left_arrow' %}
+        {% endcomment %}
+        {% render 'all-icons', name: 'left_arrow' %}
+      </div>
+      <div class="next-{{ section.id }} --nav-icon hero_slider__nav_icon">
+        {% render 'all-icons', name: 'right_arrow' %}
+        {% comment %}
+          {% render 'all-icons', name: 'right_arrow' %}
+        {% endcomment %}
+      </div>
+    </div>
+  </div>   
+  <div class="new-fc-wrapper">
+    <div class="mfc__nav-scroll__wrapp mobile-only">
+      <h2 class="--section-title">{{ section.settings.heading }}</h2>
+      <div class="button__wrapper_swiper mobile_only">
+        <div class="prev-{{ section.id }} --nav-icon hero_slider__nav_icon ">
+          {% comment %}
+            {% render 'all-icons', name: 'left_arrow' %}
+          {% endcomment %}
+          {% render 'all-icons', name: 'left_arrow' %}
+        </div>
+        <div class="next-{{ section.id }} --nav-icon hero_slider__nav_icon">
+          {% render 'all-icons', name: 'right_arrow' %}
+          {% comment %}
+            {% render 'all-icons', name: 'right_arrow' %}
+          {% endcomment %}
+        </div>
+      </div>
+    </div>         
+    <div class="new-fc-header">
+      
+      <div class="new-fc-list fc-list-{{ section.id }}">
+        {% for block in section.blocks %}
+          {% unless block.settings.collection == blank %}
+            <button
+              class="new-fc-list-btn {% if forloop.index == 2 %}active{% endif %} new-fc-list-btn--{{ forloop.index }}"
+              data-collection="{{ block.settings.collection.handle }}"
+              data-url="{{ block.settings.collection.url }}"
+            >
+              <div class="content__wrap">                
+                {% unless block.settings.img == blank %}
+                  {{ block.settings.img | image_url: width: 80 | image_tag  }}
+                {% endunless %}
+                {% if block.settings.title != blank %}{{ block.settings.title }}{%else %}{{ block.settings.collection.title }}{% endif %}                     
+             </div>        
+            </button>
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="new-fc-body section-container--{{ id }}">
+      <div class="swiper swiper-{{ section.id }}">     
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            {% unless block.settings.collection == blank %}
+              {% for product in block.settings.collection.products  %}
+                <div
+                  class="swiper-slide swiper-slide--{{ section.id }} {% unless selected_collection.handle == block.settings.collection.handle %}hidden-collection{% endunless %}"
+                  data-collection="{{ block.settings.collection.handle }}"
+                >
+                    {% render 'product-card', product: product %}
+                </div>
+              {% endfor %}
+            {% endunless %}
+          {% endfor %}
+        </div>
+
+        {% comment %}
+          <div class="prev-{{ section.id }} hero_slider__nav_icon">
+              {% render 'all-icons', name: 'left_arrow' %}
+            </div>
+            <div class="next-{{ section.id }} hero_slider__nav_icon">
+              {% render 'all-icons', name: 'right_arrow' %}
+            </div>
+          <div class="swiper-scrollbar-{{ section.id }} swiper-scrollbar"></div>
+        {% endcomment %}
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Initialize swiperSliderNew globally if not already defined
+    window.swiperSliderNew = window.swiperSliderNew || {};
+    const sectionId = '{{ section.id }}';
+
+    // Ensure the section-specific object exists
+    if (!window.swiperSliderNew[sectionId]) {
+      window.swiperSliderNew[sectionId] = {};
+    }
+
+    // Initialize Swiper for this section
+    window.swiperSliderNew[sectionId].swiperInit = () => {
+      window.swiperSliderNew[sectionId].swiper = new Swiper(`.swiper-${sectionId}`, {
+        slidesPerView: 2,
+        spaceBetween: 40,
+        grid: {
+            rows: 2,
+        },         
+        navigation: {
+          nextEl: `.next-{{ section.id }}`,
+          prevEl: `.prev-{{ section.id }}`,
+        },       
+        breakpoints: {
+          200: {
+            slidesPerView: 1.2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 25,
+          },
+          1200: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1400: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1600: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+        },
+      });
+    };
+
+    window.swiperSliderNew[sectionId].swiperInit();
+
+    window.swiperSliderNew[sectionId].lists = document.querySelectorAll(`.fc-list-${sectionId} button`);
+    window.swiperSliderNew[sectionId].slides = document.querySelectorAll(
+      `.swiper-${sectionId} .swiper-slide--${sectionId}`
+    );
+    window.swiperSliderNew[sectionId].viewAllBtn = document.querySelector(`._btn-${sectionId}`);
+
+    window.swiperSliderNew[sectionId].updateSlider = (handle) => {
+      console.log('handle', handle);
+      if (window.swiperSliderNew[sectionId].slides) {
+        window.swiperSliderNew[sectionId].slides.forEach((slide) => {
+          slide.dataset.collection === handle
+            ? slide.classList.remove('hidden-collection')
+            : slide.classList.add('hidden-collection');
+        });
+      }
+
+      if (window.swiperSliderNew[sectionId].swiper) {
+        window.swiperSliderNew[sectionId].swiper.destroy(true, true);
+      }
+      window.swiperSliderNew[sectionId].swiperInit();
+    };
+
+    if (window.swiperSliderNew[sectionId].lists) {
+      window.swiperSliderNew[sectionId].lists.forEach((list, index) => {
+        list.addEventListener('click', (e) => {
+          window.swiperSliderNew[sectionId].updateSlider(list.dataset?.collection);
+          window.swiperSliderNew[sectionId].lists.forEach((l, i) =>
+            index === i ? l.classList.add('active') : l.classList.remove('active')
+          );
+          if (window.swiperSliderNew[sectionId].viewAllBtn) {
+            window.swiperSliderNew[sectionId].viewAllBtn.setAttribute('href', list.dataset?.url);
+          }
+        });
+      });
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Featured Collection Tab",
+  "settings": [
+    {
+      "type": "text",
+      "id": "nav_id",
+      "label": "Navigation ID"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width_section",
+      "label": "Full Width Section",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Heading Alignment",
+      "options": [
+        {
+          "value": "start",
+          "label": "left",        
+        },
+        {
+          "value": "center",
+          "label": "center",        
+        },
+        {
+          "value": "end",
+          "label": "right",        
+        },
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing"
+    },
+    {
+      "type": "text",
+      "id": "padding_block_desktop",
+      "label": "Padding Block",
+      "default": "40px 80px",
+      "info": "0px 0px; means top 0px and bottom 0px"
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing (Mobile)"
+    },
+    {
+      "type": "text",
+      "id": "padding_block_mobile",
+      "label": "Padding Block",
+      "default": "24px 24px",
+      "info": "0px 0px; means top 0px and bottom 0px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Select Collection"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Collection Tab",
+      "blocks": [
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

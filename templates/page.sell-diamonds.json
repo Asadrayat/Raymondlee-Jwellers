@@ -1,0 +1,1150 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_slide_a3GniJ": {
+      "type": "hero-slide",
+      "blocks": {
+        "image_qPQ7Xe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JT1A9945-Edit-Edit_021e0cdd-194e-4886-91b5-073d69d8b3d1.jpg",
+            "image_mobile": "shopify://shop_images/WhatsApp_Image_2025-08-23_at_2.51.53_AM.jpg",
+            "image_overlay_opacity": 100,
+            "content_position": "bottom_left",
+            "content_position_m": "middle_center",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "center",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "Sell Diamonds",
+            "subtitle": "With respect and discretion, we stand as <em>your premier diamond buyer.</em>",
+            "btn_label1": "",
+            "btn_url1": "",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        },
+        "image_Mt4yJL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JT1A6022-Edit.jpg",
+            "image_mobile": "shopify://shop_images/JT1A6022-Edit.jpg",
+            "image_overlay_opacity": 100,
+            "content_position": "bottom_left",
+            "content_position_m": "middle_center",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "center",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "Sell Diamonds",
+            "subtitle": "With respect and discretion, we stand as <em>your premier diamond buyer.</em>",
+            "btn_label1": "",
+            "btn_url1": "",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qPQ7Xe",
+        "image_Mt4yJL"
+      ],
+      "name": "Hero Slider",
+      "settings": {
+        "full_width": false,
+        "banner_height": "adaptive",
+        "enable_autoslide": true,
+        "show_arrow": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "rich_text_NbeBzf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NwCxA8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Creating Your Dream Jewelry: A Personalized<em> Design Process</em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_M6CwRy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Design your dream jewelry with our personalized custom design process. From initial consultation to jewelry, <em>we’ll bring your vision to life.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NwCxA8",
+        "text_M6CwRy"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_text_X3BBcD": {
+      "type": "image-text",
+      "blocks": {
+        "text_UaNeEq": {
+          "type": "text",
+          "settings": {
+            "title": "Your premiere diamond buyer: Diamonds By Raymond Lee",
+            "content": "Our expertise isn’t just about understanding diamonds—it’s about understanding you. Whether your life’s chapters are evolving or your tastes are changing, we honor your story and your decision to sell your diamonds. With respect and discretion, we stand as your premier diamond buyer.",
+            "label": "Contact Us",
+            "btn_url": "shopify://pages/contact",
+            "show_full_btn": false,
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "image_FfbxYe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8780.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_UaNeEq",
+        "image_FfbxYe"
+      ],
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "1755254459511194a4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_4282f8f_G6abV8": {
+          "type": "ai_gen_block_4282f8f",
+          "settings": {
+            "heading": "Multicolumn",
+            "heading_alignment": "center",
+            "layout_type": "grid",
+            "columns_desktop": 3,
+            "columns_mobile": "1",
+            "slide_width": 300,
+            "slide_width_mobile": 250,
+            "content_alignment": "center",
+            "column_gap": 30,
+            "image_width": 150,
+            "image_height": 150,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "heading_size": 32,
+            "title_size": 18,
+            "description_size": 14,
+            "background_color": "#ffffff",
+            "text_color": "#000000",
+            "section_padding_top": 60,
+            "section_padding_bottom": 60,
+            "column_1_enabled": true,
+            "column_1_title": "Column 1",
+            "column_1_description": "Pair text with an image to focus on your chosen product, collection, or blog post.",
+            "column_2_enabled": true,
+            "column_2_title": "Column 2",
+            "column_2_description": "Pair text with an image to focus on your chosen product, collection, or blog post.",
+            "column_3_enabled": true,
+            "column_3_title": "Column 3",
+            "column_3_description": "Pair text with an image to focus on your chosen product, collection, or blog post.",
+            "column_4_enabled": false,
+            "column_4_title": "Column 4",
+            "column_4_description": "Pair text with an image to focus on your chosen product, collection, or blog post.",
+            "column_5_enabled": false,
+            "column_5_title": "Column 5",
+            "column_5_description": "Pair text with an image to focus on your chosen product, collection, or blog post.",
+            "column_6_enabled": false,
+            "column_6_title": "Column 6",
+            "column_6_description": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_4282f8f_G6abV8"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_7MticA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yHhYzp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Why Sell Your Diamonds to Us in Boca Raton</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Re987q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diamonds by Raymond Lee has transformed the diamond-selling experience. We’re not just another buyer; we’re the trusted companion you need on this journey. Our acquisition experts are now readily available for private consultations, offering a convenient, upscale service to the Boca Raton community and beyond.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yHhYzp",
+        "text_Re987q"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 24
+      }
+    },
+    "card_list_hfa8nQ": {
+      "type": "card-list",
+      "blocks": {
+        "card_Ggrh4p": {
+          "type": "card",
+          "settings": {
+            "title": "Gia Certified Diamonds",
+            "des": "Recognized for their standard in the industry, we’re eager to purchase your GIA-certified diamonds, offering fair market value and a solid return on your investment.",
+            "image": "shopify://shop_images/icon_sertificat.png"
+          }
+        },
+        "card_nLKTMr": {
+          "type": "card",
+          "settings": {
+            "title": "Large Diamonds",
+            "des": "Selling larger diamonds requires discernment. We are the next generation of jewelers, with a legacy that lends us unique insights into the diamond industry. Our knowledge and experience ensure that your large diamonds are treated with the respect and attention they deserve.",
+            "image": "shopify://shop_images/image_3.png"
+          }
+        },
+        "card_kXAHiD": {
+          "type": "card",
+          "settings": {
+            "title": "Uncertified Diamonds",
+            "des": "Expertise is key in assessing the value of uncertified diamonds. Our GIA graduates are here to provide an expert evaluation and ensure you receive a fair price without the extra cost of certification.",
+            "image": "shopify://shop_images/icon_unsertificat.png"
+          }
+        },
+        "card_8JYta6": {
+          "type": "card",
+          "settings": {
+            "title": "Fancy Colored Diamonds",
+            "des": "The sale of fancy colored diamonds, particularly larger or rare ones, can be complex. Our team is equipped to evaluate and offer a seamless and rewarding sales process, bypassing the need for auction houses.",
+            "image": "shopify://shop_images/icon_colored.png"
+          }
+        },
+        "card_ea6GtF": {
+          "type": "card",
+          "settings": {
+            "title": "Rare Diamond Jewelry",
+            "des": "We have a passion for rare diamond jewelry, from antique pieces tovintage and haute joallerie collections. We appreciate the craftsmanship and are committed to giving you a return that acknowledges the piece’s worth.",
+            "image": "shopify://shop_images/icon_piedestal.png"
+          }
+        },
+        "card_aqbPXg": {
+          "type": "card",
+          "settings": {
+            "title": "Upgrade Your Diamonds",
+            "des": "Diamonds may last forever, but tastes evolve. Take advantage of our upgrade services to find a new diamond that reflects your current preferences, with a 100% credit towards future upgrades.",
+            "image": "shopify://shop_images/icon_diamand-up.png"
+          }
+        }
+      },
+      "block_order": [
+        "card_Ggrh4p",
+        "card_nLKTMr",
+        "card_kXAHiD",
+        "card_8JYta6",
+        "card_ea6GtF",
+        "card_aqbPXg"
+      ],
+      "name": "Card List",
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "enable_slider": false,
+        "slides_per_view": 3,
+        "slides_per_view_mbl": 1.2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "rich_text_d8WJfA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RVfpBw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>How Our Process Works</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_4zJz7m": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Diamonds by Raymond Lee has transformed the diamond-selling experience. We’re not just another buyer; we’re the trusted companion you need on this journey. Our acquisition experts are now readily available for private consultations, offering a convenient, upscale service to the Boca Raton community and beyond.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RVfpBw",
+        "text_4zJz7m"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 24
+      }
+    },
+    "card_list_GnXhfM": {
+      "type": "card-list",
+      "blocks": {
+        "card_fYkA7e": {
+          "type": "card",
+          "settings": {
+            "title": "Request a free quote",
+            "des": "Using the Get My Quote button, upload GIA certificates or photos for speed.",
+            "image": "shopify://shop_images/icon_sertificat.png"
+          }
+        },
+        "card_p4f9qT": {
+          "type": "card",
+          "settings": {
+            "title": "Visitour private Boca Raton showroom",
+            "des": "at your convenience; complimentary espresso awaits.",
+            "image": "shopify://shop_images/image_3.png"
+          }
+        },
+        "card_HkRTNN": {
+          "type": "card",
+          "settings": {
+            "title": "Receives same-day payment",
+            "des": "by wire or check, or convert to a secure collateral loan on the spot.",
+            "image": "shopify://shop_images/icon_unsertificat.png"
+          }
+        },
+        "card_TX6y9Q": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Fancy Colored Diamonds",
+            "des": "The sale of fancy colored diamonds, particularly larger or rare ones, can be complex. Our team is equipped to evaluate and offer a seamless and rewarding sales process, bypassing the need for auction houses.",
+            "image": "shopify://shop_images/icon_colored.png"
+          }
+        },
+        "card_VGz9c8": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Rare Diamond Jewelry",
+            "des": "We have a passion for rare diamond jewelry, from antique pieces tovintage and haute joallerie collections. We appreciate the craftsmanship and are committed to giving you a return that acknowledges the piece’s worth.",
+            "image": "shopify://shop_images/icon_piedestal.png"
+          }
+        },
+        "card_mVUmUT": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Upgrade Your Diamonds",
+            "des": "Diamonds may last forever, but tastes evolve. Take advantage of our upgrade services to find a new diamond that reflects your current preferences, with a 100% credit towards future upgrades.",
+            "image": "shopify://shop_images/icon_diamand-up.png"
+          }
+        }
+      },
+      "block_order": [
+        "card_fYkA7e",
+        "card_p4f9qT",
+        "card_HkRTNN",
+        "card_TX6y9Q",
+        "card_VGz9c8",
+        "card_mVUmUT"
+      ],
+      "name": "Card List",
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "enable_slider": false,
+        "slides_per_view": 3,
+        "slides_per_view_mbl": 1.2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_with_icon_blocks_Vj7N9y": {
+      "type": "image-with-icon-blocks",
+      "blocks": {
+        "icon_block_HRjdNT": {
+          "type": "icon_block",
+          "settings": {
+            "title": "Digital Pre‑Valuation",
+            "des": "Your journey begins with a brief form. If you already have lab certificates, appraisals, or high‑resolution photos, attach them and our gemologists will create a pre‑valuation range before you ever leave home.",
+            "icon": "shopify://shop_images/diamond-svgrepo-com.png"
+          }
+        },
+        "icon_block_ar4Daf": {
+          "type": "icon_block",
+          "settings": {
+            "title": "In‑Person Verification",
+            "des": "During your visit, we verify carat weight on calibrated scales, inspect under a microscope for inclusions, and test fluorescence under UV light. All findings are compared against the live Rapaport sheet the moment your appointment starts.",
+            "icon": "shopify://shop_images/diamond-svgrepo-com.png"
+          }
+        },
+        "icon_block_zLHzTw": {
+          "type": "icon_block",
+          "settings": {
+            "title": "Same‑Day Settlement",
+            "des": "Once you approve the offer, we draft simple purchase documents and transfer funds instantly. Many clients finish paperwork, sip a cappuccino, and see the wire land in their account before they reach their car..",
+            "icon": "shopify://shop_images/diamond-svgrepo-com.png"
+          }
+        },
+        "icon_block_VUwH9H": {
+          "type": "icon_block",
+          "disabled": true,
+          "settings": {
+            "title": "High-End Watches:",
+            "des": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+            "icon": "shopify://shop_images/diamond-svgrepo-com.png"
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_HRjdNT",
+        "icon_block_ar4Daf",
+        "icon_block_zLHzTw",
+        "icon_block_VUwH9H"
+      ],
+      "name": "Image With Icon Blocks",
+      "settings": {
+        "title": "Our Accepted Collateral",
+        "img": "shopify://shop_images/DSC05961.jpg",
+        "btn_text": "Get Quote",
+        "btn_url": "",
+        "bg-color": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "testimonial_YQLegR": {
+      "type": "testimonial",
+      "blocks": {
+        "text_6q7nwX": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Lisa, April 2025",
+            "title": "“Raymond Lee made selling my grandmother’s ring effortless-I walked out with a wire in under two hours.”",
+            "desc": ""
+          }
+        },
+        "text_Y3Emyp": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Marco, February 2025",
+            "title": "“After shopping around, this was the best place to sell diamonds without pressure. Transparent screens sealed the deal.”",
+            "desc": "<p>The intricate details and premium finish make every piece a memorable keepsake.</p>"
+          }
+        },
+        "text_BhUjPG": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Stephanie, October 2024",
+            "title": "“I traded my loose stones for a Rolex Submariner upgrade; the payout was fair and fast.”",
+            "desc": "<p>The attention to detail in every piece is breathtaking—truly a work of art.</p>"
+          }
+        },
+        "text_ELbygq": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Eleanor Pena",
+            "title": "\"Perfect gift for my loved ones!\"",
+            "desc": "<p>The intricate details and premium finish make every piece a memorable keepsake.</p>"
+          }
+        },
+        "text_xADVfW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Ralph Edwards",
+            "title": "\"Luxury and elegance in every piece!\"",
+            "desc": "<p>The attention to detail in every piece is breathtaking—truly a work of art.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6q7nwX",
+        "text_Y3Emyp",
+        "text_BhUjPG",
+        "text_ELbygq",
+        "text_xADVfW"
+      ],
+      "name": "Custom Review",
+      "settings": {
+        "title": "Recent Client Testimonials",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 32,
+        "padding_bottom_mobile": 32
+      }
+    },
+    "image_text_cCEyKf": {
+      "type": "image-text",
+      "blocks": {
+        "image_ripqmj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings.png"
+          }
+        },
+        "text_yiX3pt": {
+          "type": "text",
+          "settings": {
+            "title": "Step 2Modeling and Testing",
+            "content": "Our process begins with a personal consultation. We discuss exactly what you’re envisioning, the essence you want your custom piece to embody, and how it should complement your lifestyle.Next, you can relax—either in our gorgeous, state-of-the-art showroom enjoying one of our local craft beers on tap, or from the comfort of your own home—as you entrust your vision to our experts. Our jewelry designer will refine the rough sketch and present it to you for any changes, questions, or approval. Once we’ve finalized the design together, our team begins sourcing the finest materials. We use only the best platinum and gold, the finest gemstones, and expertly selected conflict-free diamonds. With the materials determined, we’ll provide you with a quote that fits within your budget. Upon your approval, we move on to the next phase.",
+            "label": "",
+            "btn_url": "",
+            "show_full_btn": false,
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ripqmj",
+        "text_yiX3pt"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_text_eirCWg": {
+      "type": "image-text",
+      "blocks": {
+        "text_PUaHMn": {
+          "type": "text",
+          "settings": {
+            "title": "Step 3<br>Assembling and Polishing",
+            "content": "Finally, our master jeweler casts your custom design, meticulously polishing and placing every detail exactly as you envisioned. Our showroom isn’t just stunning; it also houses our state-of-the-art jewelry workshop, equipped with the finest design and repair technology. While our master jewelers are the heart of our exceptional custom and private label designs, we ensure they have the best tools to create their masterpieces.",
+            "label": "",
+            "btn_url": "",
+            "show_full_btn": false,
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "image_miE4jB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_7.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_PUaHMn",
+        "image_miE4jB"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_text_tb8DYP": {
+      "type": "image-text",
+      "blocks": {
+        "image_hRenC7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_8.png"
+          }
+        },
+        "text_qd8FET": {
+          "type": "text",
+          "settings": {
+            "title": "Step 4<br>Quality Control and Inspection",
+            "content": "Upon completion, your piece undergoes rigorous quality control, polishing, and inspection by our team of jewelers and diamond experts before we present it to you. <br> <br>Our highly structured and successful process is what we love doing most. We encourage you to be involved and vocal every step of the way. Your opinions are invaluable as we bring your vision to life. We offer a supportive, knowledgeable, and comfortable environment where you can freely express your artistic ideas. Depending on the intricacy of your design, the entire custom jewelry creation process takes between 2 to 6 weeks. Regardless of your budget, our team ofdesigners, experts, and jewelers will work with you to make your dream piece a reality.",
+            "label": "",
+            "btn_url": "",
+            "show_full_btn": false,
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hRenC7",
+        "text_qd8FET"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "hero_slide_R74KkV": {
+      "type": "hero-slide",
+      "blocks": {
+        "image_kGFB6E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_1.png",
+            "image_mobile": "shopify://shop_images/Engagement_Rings_2.png",
+            "image_overlay_opacity": 100,
+            "content_position": "bottom_left",
+            "content_position_m": "middle_center",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "center",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "Design Your Dream Jewelry <em>with Us</em>",
+            "subtitle": "We make it easy for you to get exactly what you’re looking for and take great pride in every<em> step of the process. We believe each piece of jewelry tells a unique story, and we provide a</em> beautiful place to facilitate its creation. Contact us today to see your custom jewelry design<em> come to life.</em>",
+            "btn_label1": "SHOP NOW",
+            "btn_url1": "",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kGFB6E"
+      ],
+      "disabled": true,
+      "name": "Hero Slider",
+      "settings": {
+        "full_width": false,
+        "banner_height": "adaptive",
+        "enable_autoslide": true,
+        "show_arrow": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "testimonial_DACFBC": {
+      "type": "testimonial",
+      "blocks": {
+        "text_6JXWky": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Ralph Edwards",
+            "title": "\"Luxury and elegance in every piece!\"",
+            "desc": "<p>The attention to detail in every piece is breathtaking—truly a work of art.</p>"
+          }
+        },
+        "text_KmTtXp": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Eleanor Pena",
+            "title": "\"Perfect gift for my loved ones!\"",
+            "desc": "<p>The intricate details and premium finish make every piece a memorable keepsake.</p>"
+          }
+        },
+        "text_eQFdnE": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Ralph Edwards",
+            "title": "\"Luxury and elegance in every piece!\"",
+            "desc": "<p>The attention to detail in every piece is breathtaking—truly a work of art.</p>"
+          }
+        },
+        "text_dJhxm6": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Eleanor Pena",
+            "title": "\"Perfect gift for my loved ones!\"",
+            "desc": "<p>The intricate details and premium finish make every piece a memorable keepsake.</p>"
+          }
+        },
+        "text_MbhbJW": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Ralph Edwards",
+            "title": "\"Luxury and elegance in every piece!\"",
+            "desc": "<p>The attention to detail in every piece is breathtaking—truly a work of art.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6JXWky",
+        "text_KmTtXp",
+        "text_eQFdnE",
+        "text_dJhxm6",
+        "text_MbhbJW"
+      ],
+      "disabled": true,
+      "name": "Custom Review",
+      "settings": {
+        "title": "Testimonials",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 120,
+        "padding_bottom": 120,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 32,
+        "padding_bottom_mobile": 32
+      }
+    },
+    "hero_slide_6q7En3": {
+      "type": "hero-slide",
+      "blocks": {
+        "image_QpfDHm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09013.jpg",
+            "image_mobile": "shopify://shop_images/WhatsApp_Image_2025-08-23_at_2.51.53_AM.jpg",
+            "image_overlay_opacity": 50,
+            "content_position": "middle_center",
+            "content_position_m": "middle_center",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "center",
+            "info_align_m": "center",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "Top Brands We Purchase",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<em> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</em>",
+            "btn_label1": "Shop Luxury Watch Brands",
+            "btn_url1": "",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QpfDHm"
+      ],
+      "disabled": true,
+      "name": "Hero Slider",
+      "settings": {
+        "full_width": true,
+        "banner_height": "adaptive",
+        "enable_autoslide": false,
+        "show_arrow": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "faq_fBLMQh": {
+      "type": "faq",
+      "blocks": {
+        "item_7YddWj": {
+          "type": "item",
+          "settings": {
+            "title": "How long does the process take?",
+            "text": "<p>Most private appointments are wrapped up<br/>in under an hour, including gemological inspection, live market comparison, and final payout paperwork. Because our team prepares your offer in real time while you relax with an espresso. You will never wait days for a check to clear.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_RRVqJ8": {
+          "type": "item",
+          "settings": {
+            "title": "Can I change my mind after receiving a quote?",
+            "text": "<p>Absolutely. A valuation does not obligate you to sell; we happily reseal your diamonds in front of you and hand them back if you decide to think it over. Our written quote remains valid for seventy‑two hours so you can compare offers or consult family at your leisure.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_qf7HjE": {
+          "type": "item",
+          "settings": {
+            "title": "What documents do I need?",
+            "text": "<p>A government‑issued photo ID is mandatory for state compliance. Bringing any GIA or AGS certificate, insurance appraisal, or original sales receipt will speed verification and maximize value, but if paperwork is missing our Graduate Gemologists can still perform a full in‑house evaluation and laser inscription match.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_T8PgTN": {
+          "type": "item",
+          "settings": {
+            "title": "Is my visit secure and private?",
+            "text": "<p>Yes. Our boutique is purpose‑built for privacy: controlled entry vestibule, bullet‑resistant glass, 24‑hour CCTV, and a discreet VIP parking lane behind the building. Only one selling party is hosted at a time, and every evaluation takes place in a glass office steps from our onsite vault.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_y8tHe6": {
+          "type": "item",
+          "settings": {
+            "title": "Do you buy designer jewelry as well?",
+            "text": "<p>We regularly purchase high‑jewelry pieces from Cartier, Harry Winston, Graff, and Bulgari, as well as luxury timepieces-Rolex, Patek Philippe, or Audemars Piguet-whether it’s a vintage Submariner, modern Daytona, or limited‑run Royal Oak. One appointment allows you to liquidate an entire collection across categories.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_9XMQMd": {
+          "type": "item",
+          "settings": {
+            "title": "What if I only want a loan?",
+            "text": "<p>Our Jewelry Equity Loan is finalized the same day with terms tailored to your timeline, typically 6 to 24 months. Using your diamonds as collateral stored in our insured vault. You keep ownership and may repay anytime without penalty, making it a flexible liquidity bridge between investments.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_FkjDRL": {
+          "type": "item",
+          "settings": {
+            "title": "Where can I repair my jewelry afterward?",
+            "text": "<p>Our master goldsmiths and watchmakers perform everything from micro‑pavé tightening to laser welding and full movement overhauls. If you later repurchase or gift your stone, our on‑premise jewelry repair department can restore its setting and polish to showroom perfection, usually within three business days.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_gUEJJY": {
+          "type": "item",
+          "settings": {
+            "title": "Where can I sell diamonds in Boca Raton?",
+            "text": "<p>Discerning sellers consistently choose Diamonds by Raymond Lee because our transparent pricing, family heritage, and 4.9‑star reputation eliminate the uncertainty that comes with pawnbrokers or online marketplaces. Our private showroom, instant funds, and free, data‑rich appraisal make us the clear answer when wondering where to sell diamonds in Boca Raton.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_tBU8hF": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_nnKwTP": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_7YddWj",
+        "item_RRVqJ8",
+        "item_qf7HjE",
+        "item_T8PgTN",
+        "item_y8tHe6",
+        "item_9XMQMd",
+        "item_FkjDRL",
+        "item_gUEJJY",
+        "item_tBU8hF",
+        "item_nnKwTP"
+      ],
+      "name": "FAQ List",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "full_width": false,
+        "bg-color": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "multicolumn_E4ACtG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pBqjAg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3anxJE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dp8pkN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b9nkfE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pBqjAg",
+        "column_3anxJE",
+        "column_Dp8pkN",
+        "column_b9nkfE"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Get Inspired",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 36
+      }
+    },
+    "contact_section_bhayhH": {
+      "type": "contact-section",
+      "name": " Contact Form",
+      "settings": {
+        "full_width": false,
+        "title": "Contact us",
+        "heading": "Get In Touch With Us",
+        "subheading": "If you wish to directly reach us, Please fill out the for below-",
+        "phone_text": "Phone",
+        "liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.4701444275015!2d-80.0769134!3d26.375994499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8e1eb43fa33f7%3A0xf93f5b1aa1b5a4cf!2sDiamonds%20By%20Raymond%20Lee!5e0!3m2!1sen!2sbd!4v1755110780680!5m2!1sen!2sbd\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "phone": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_slide_a3GniJ",
+    "rich_text_NbeBzf",
+    "image_text_X3BBcD",
+    "1755254459511194a4",
+    "rich_text_7MticA",
+    "card_list_hfa8nQ",
+    "rich_text_d8WJfA",
+    "card_list_GnXhfM",
+    "image_with_icon_blocks_Vj7N9y",
+    "testimonial_YQLegR",
+    "image_text_cCEyKf",
+    "image_text_eirCWg",
+    "image_text_tb8DYP",
+    "hero_slide_R74KkV",
+    "testimonial_DACFBC",
+    "hero_slide_6q7En3",
+    "faq_fBLMQh",
+    "multicolumn_E4ACtG",
+    "contact_section_bhayhH"
+  ]
+}

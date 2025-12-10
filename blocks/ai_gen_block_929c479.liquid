@@ -1,0 +1,278 @@
+{% doc %}
+  @prompt
+    need a breadcumb for collection page
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-breadcrumb-{{ ai_gen_id }} {
+    padding-top: {{ block.settings.padding_top }}px;
+    padding-bottom: {{ block.settings.padding_bottom }}px;
+    background-color: {{ block.settings.background_color }};
+    @media(max-width: 768px){
+    padding-top: 16px;
+    padding-bottom: 8px;
+    }
+  }
+
+  {% comment %} .ai-breadcrumb-nav-{{ ai_gen_id }} {
+    max-width: {{ block.settings.page_width }}px;
+    margin: 0 auto;
+    padding: 0 {{ settings.spacing_grid_horizontal }}px;
+  } {% endcomment %}
+
+  .ai-breadcrumb-list-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: {{ block.settings.font_size }}px;
+    gap: 0;
+    {% comment %} gap: {{ block.settings.spacing }}px; {% endcomment %}
+  }
+
+  .ai-breadcrumb-item-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: {{ block.settings.spacing }}px;
+  }
+
+  .ai-breadcrumb-link-{{ ai_gen_id }} {
+    color: {{ block.settings.link_color }};
+    text-decoration: none;
+    transition: color 0.2s ease;
+    color: var(--Color-Dark-500, #0B0404);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+
+  .ai-breadcrumb-link-{{ ai_gen_id }}:hover {
+    color: {{ block.settings.link_hover_color }};
+    text-decoration: underline;
+  }
+
+  .ai-breadcrumb-current-{{ ai_gen_id }} {
+    color: {{ block.settings.current_color }};
+    font-weight: 500;
+    color: var(--Color-Dark-500, #0B0404);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+
+  .ai-breadcrumb-separator-{{ ai_gen_id }} {
+    color: {{ block.settings.separator_color }};
+    font-size: {{ block.settings.font_size | times: 0.9 }}px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-breadcrumb-list-{{ ai_gen_id }} {
+      font-size: {{ block.settings.font_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-breadcrumb-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <nav class="page-width ai-breadcrumb-nav-{{ ai_gen_id }}" aria-label="Breadcrumb">
+    <ol class="ai-breadcrumb-list-{{ ai_gen_id }}">
+      <li class="ai-breadcrumb-item-{{ ai_gen_id }}">
+        <a href="{{ routes.root_url }}" class="ai-breadcrumb-link-{{ ai_gen_id }}">
+          {{ block.settings.home_text }}
+        </a>
+      </li>
+
+      {% if collection %}<li class="ai-breadcrumb-item-{{ ai_gen_id }}">
+          <span class="ai-breadcrumb-separator-{{ ai_gen_id }}">
+            {% case block.settings.separator_style %}
+              {% when 'arrow' %}
+                →
+              {% when 'chevron' %}
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M8.3335 5.83334L11.6668 10L8.3335 14.1667" stroke="#0B0404" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              {% when 'slash' %}
+                /
+              {% else %}
+                ›
+            {% endcase %}
+          </span>
+        </li>
+
+        {% if collection.all_products_count > 0 %}
+          <li class="ai-breadcrumb-item-{{ ai_gen_id }}">
+            <span class="ai-breadcrumb-current-{{ ai_gen_id }}" aria-current="page">
+              {{ collection.title }}
+            </span>
+          </li>
+        {% else %}
+          <li class="ai-breadcrumb-item-{{ ai_gen_id }}"><a href="{{ collection.url }}" class="ai-breadcrumb-link-{{ ai_gen_id }}">
+              {{ collection.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endif %}
+
+      {% if product %}
+        <li class="ai-breadcrumb-item-{{ ai_gen_id }}">
+          <span class="ai-breadcrumb-separator-{{ ai_gen_id }}">
+            {% case block.settings.separator_style %}
+              {% when 'arrow' %}
+                →
+              {% when 'chevron' %}
+                ›
+              {% when 'slash' %}
+                /
+              {% else %}
+                ›
+            {% endcase %}
+          </span>
+        </li>
+        <li class="ai-breadcrumb-item-{{ ai_gen_id }}">
+          <span class="ai-breadcrumb-current-{{ ai_gen_id }}" aria-current="page">
+            {{ product.title }}
+          </span>
+        </li>
+      {% endif %}
+    </ol>
+  </nav>
+</div>
+
+{% schema %}
+{
+  "name": "Breadcrumb navigation",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "home_text",
+      "label": "Home text",
+      "default": "Home"
+    },
+    {
+      "type": "select",
+      "id": "separator_style",
+      "label": "Separator style",
+      "options": [
+        {
+          "value": "chevron",
+          "label": "Chevron (›)"
+        },
+        {
+          "value": "arrow",
+          "label": "Arrow (→)"
+        },
+        {
+          "value": "slash",
+          "label": "Slash (/)"
+        }
+      ],
+      "default": "chevron"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "spacing",
+      "min": 4,
+      "max": 16,
+      "step": 2,
+      "unit": "px",
+      "label": "Item spacing",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Link",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "link_hover_color",
+      "label": "Link hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "current_color",
+      "label": "Current page",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "separator_color",
+      "label": "Separator",
+      "default": "#999999"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 16
+    }
+  ],
+  "presets": [
+    {
+      "name": "Breadcrumb navigation"
+    }
+  ],
+  "tag": null
+}
+{% endschema %}

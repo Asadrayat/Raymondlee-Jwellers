@@ -1,0 +1,947 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_slide_a3GniJ": {
+      "type": "hero-slide",
+      "blocks": {
+        "image_qPQ7Xe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_25407457-65a2-40ee-b4e5-bb588493e3ca.png",
+            "image_mobile": "shopify://shop_images/Engagement_Rings_1_e0c1b74b-8156-4a71-804d-9e81ed679065.png",
+            "image_overlay_opacity": 100,
+            "content_position": "bottom_left",
+            "content_position_m": "bottom_left",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "left",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "Custom Jewelry Design Boca Raton",
+            "subtitle": "A love story deserves more than a stock setting; a promotion deserves more than another cookie‑cutter watch. <strong>Custom Design</strong> at <strong>Diamonds by Raymond Lee</strong> transforms your milestones into wearable heirlooms meticulously engineered in the heart of Boca Raton. For more than 40 years, our family‑owned atelier has united GIA‑certified gemologists, on‑site <strong>CAD</strong> artists, and master bench jewelers to deliver haute couture jewelry without the Manhattan markup. With over <strong>2,000 Google reviews averaging 4.9 stars</strong>, our process is revered for pairing red‑carpet creativity with private‑bank discretion.Maybe you dream of a platinum toi‑et‑moi ring fashioned from your grandmother’s solitaire and new fancy‑colored diamonds. Perhaps you envision a modern signet that hides a mechanical secret. Whatever ignites your imagination, our artisans guide you from napkin sketch to final polish, ensuring each prong, curve, and stone placement reflects your personality and lifestyle. Complimentary mock‑ups, expedited timelines, and a workmanship warranty underscore our pledge: the piece will be perfect, or we will remake it.",
+            "btn_label1": "<strong>Call 561-750-6744 or click Book My Service</strong>",
+            "btn_url1": "#",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qPQ7Xe"
+      ],
+      "name": "Hero Slider",
+      "settings": {
+        "full_width": false,
+        "banner_height": "adaptive",
+        "enable_autoslide": false,
+        "show_arrow": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "image_with_text_overlay_BnYgyc": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "text_DTQiz3": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1610068946.png",
+            "title": "<p>Necklaces that<em> Define Elegance</em></p>",
+            "content": "<p>Sculptured designs that reimagine the elegant <em>fluidity of lilies as they take shape.</em></p>",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "text_YrqrYQ": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1610068947.png",
+            "title": "<p>Eternal Rings, <em>Timeless Beauty</em></p>",
+            "content": "<p>Jewels that recall the lively<em> silhouette of its namesake bloom.</em></p>",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_DTQiz3",
+        "text_YrqrYQ"
+      ],
+      "disabled": true,
+      "name": "Image Text Overlay",
+      "settings": {
+        "full_width": false,
+        "bg": "#fef9f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "feature_text_VeBetG": {
+      "type": "feature-text",
+      "blocks": {
+        "richtext_Yw8NTi": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h2>Why Choose Us for Custom Design in Boca Raton</h2><ul><li><strong>Under‑one‑roof mastery.</strong> GIA gemologists, master jewelers, and <strong>CAD designers</strong> collaborate in our 3,000‑sq‑ft studio, no shipping, no middlemen.<br/><br/></li><li><strong>Concierge speed.</strong> Same‑day <strong>ring sizing, cleaning, and polishing</strong> during consultations, plus photo updates for a quick<strong> </strong>turnaround on design revisions.<br/><br/></li><li><strong>Risk‑free creativity.</strong> Unlimited render changes and 3D printed prototypes let you wear‑test proportions before we cast.<br/><br/></li><li><strong>Lifetime confidence.</strong> Every bespoke piece carries a workmanship warranty and complimentary annual <strong>ultrasonic cleaning</strong> and polishing.<br/><br/></li></ul><p>Searching for the <strong>best custom design in Boca Raton?</strong> Collectors choose us because the experience feels tailored, transparent, and exhilarating from first sketch to final reveal.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Yw8NTi"
+      ],
+      "name": "Featured Text",
+      "settings": {
+        "full_width": false,
+        "content_alignment": "left",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "feature_text_KWQDJt": {
+      "type": "feature-text",
+      "blocks": {
+        "richtext_dgpVdq": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h2>Get Started Today</h2><p>Searching for the <strong>best custom design in Boca Raton?</strong> Collectors choose us because the experience feels tailored, transparent, and exhilarating from first sketch to final reveal.</p><p><a href=\"tel:561‑750‑6744\" title=\"tel:561‑750‑6744\">Book My Service</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dgpVdq"
+      ],
+      "name": "Featured Text",
+      "settings": {
+        "full_width": false,
+        "content_alignment": "left",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "feature_text_h7Gwcr": {
+      "type": "feature-text",
+      "blocks": {
+        "richtext_frFhRP": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h2>How Our Process Works</h2><ol><li><strong>Schedule your appointment;</strong> walk-ins are also welcome.<br/><br/></li><li><strong>Visit our private Boca Raton showroom</strong> for a free design consultation, gemstone curation, and written quote.<br/><br/></li><li><strong>Enjoy same‑day or next‑day completion</strong> on wax models and digital renders with text and photo updates; your approval launches casting and finishing.<br/><br/></li></ol><p>During your visit, a gemologist presents ethically sourced options beside your chosen metals: 14k or 18k yellow gold, platinum, or even tantalum. Our jeweler measures finger size, notes lifestyle factors (surfing, golf, glove use), and photographs hand angles so proportions feel balanced. High‑resolution renders land in your inbox within a week. Approve, and we cast using induction‑vacuum machines that minimize porosity before stones are set under microscopes, securing brilliance for generations.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_frFhRP"
+      ],
+      "name": "Featured Text",
+      "settings": {
+        "full_width": false,
+        "content_alignment": "left",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "feature_text_9JRHtL": {
+      "type": "feature-text",
+      "blocks": {
+        "richtext_gi7Q3b": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h2>What Goes Into Expert Custom Design</h2><ul><li><strong>Metal selection & casting.</strong> Platinum demands higher temps and slower cooling; yellow gold favors centrifugal casting for crisp milgrain.<br/><br/></li><li><strong>Stone architecture.</strong> Carat, pavilion angle, and table size influence light return; we suggest subtle tweaks for maximal fire.<br/><br/></li><li><strong>Structural engineering.</strong> Finite‑element analysis informs band thickness, optimizing comfort without sacrificing durability.<br/><br/></li><li><strong>Advanced craftsmanship.</strong> Micro‑pavé setters sculpt beadwork; <strong>laser welding</strong> corrects micro gaps; satin, high‑gloss, or hybrid finishes create depth.<br/><br/></li><li><strong>Future serviceability.</strong> We design for easy <strong>prong retipping</strong> and seamless <strong>stone tightening</strong>, ensuring long‑term care is straightforward.<br/><br/></li><li><strong>Personal touches.</strong> Hidden birthstones, engraved coordinates, or movement‑inspired motifs elevate the narrative.<br/><br/></li></ul><p>Our multidisciplinary circle also integrates watchmaking aesthetics, Guilloché patterns, skeleton bridges, should you desire cross‑category artistry. The result is <strong>custom jewelry</strong> that marries avant‑garde style with heirloom reliability.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_gi7Q3b"
+      ],
+      "name": "Featured Text",
+      "settings": {
+        "full_width": false,
+        "content_alignment": "left",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "card_list_63DRha": {
+      "type": "card-list",
+      "blocks": {
+        "card_tmL8c6": {
+          "type": "card",
+          "settings": {
+            "title": "1.\tRequest a Free Quote",
+            "des": "Tap the Get My Quote button or call us. Submit basic details and photos for a swift preliminary range.",
+            "image": "shopify://shop_images/icon_sertificat.png"
+          }
+        },
+        "card_J4eTMn": {
+          "type": "card",
+          "settings": {
+            "title": "2.\tShip or Visit",
+            "des": "Choose our prepaid, insured shipping label or schedule a private showroom appointment under constant CCTV and on‑site security.",
+            "image": "shopify://shop_images/image_3.png"
+          }
+        },
+        "card_DJUFhe": {
+          "type": "card",
+          "settings": {
+            "title": "3.\tGet Paid",
+            "des": "Accept the final offer and receive an instant payout by bank wire or certified check before you leave the showroom-or before your watch leaves our vault.",
+            "image": "shopify://shop_images/icon_unsertificat.png"
+          }
+        }
+      },
+      "block_order": [
+        "card_tmL8c6",
+        "card_J4eTMn",
+        "card_DJUFhe"
+      ],
+      "disabled": true,
+      "name": "Card List",
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "enable_slider": false,
+        "slides_per_view": 3,
+        "slides_per_view_mbl": 1.2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "testimonial_DACFBC": {
+      "type": "testimonial",
+      "blocks": {
+        "text_6JXWky": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Rachel, March 2025",
+            "title": "The 3D print helped me visualize scale.",
+            "desc": "<p>“They translated my beach proposal sketch into a stunning marquise halo; the 3D print helped me visualize scale.”</p>"
+          }
+        },
+        "text_KmTtXp": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Kim, February 2025",
+            "title": "The finished ring blew us away, worth every step",
+            "desc": "<p>“The CAD render looked amazing, but the finished ring blew us away, worth every step.”</p>"
+          }
+        },
+        "text_eQFdnE": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Ralph Edwards",
+            "title": "\"Fair, friendly, five stars.\"",
+            "desc": "<p>Traded an heirloom ring and a Patek for cash plus store credit. Fair, friendly, five stars.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6JXWky",
+        "text_KmTtXp",
+        "text_eQFdnE"
+      ],
+      "name": "Custom Review",
+      "settings": {
+        "title": "Recent Client Testimonials",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 32,
+        "padding_bottom_mobile": 32
+      }
+    },
+    "faq_PNcQyb": {
+      "type": "faq",
+      "blocks": {
+        "item_XmePVh": {
+          "type": "item",
+          "settings": {
+            "title": "How long does a custom piece take?",
+            "text": "<p>Most projects finish in four to six weeks from concept approval. Rush slots are available for tighter timelines.<br/></p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_KfbKyb": {
+          "type": "item",
+          "settings": {
+            "title": "What if I change my mind after the CAD stage?",
+            "text": "<p>Unlimited digital revisions are included. We print new wax models until you’re thrilled, no extra charge.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_ExYgbL": {
+          "type": "item",
+          "settings": {
+            "title": "Do you work with lab‑grown diamonds?",
+            "text": "<p>Yes. We offer mined and lab‑grown options, explaining resale, sustainability, and brilliance factors so you can decide confidently.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_akQp7q": {
+          "type": "item",
+          "settings": {
+            "title": "Do you bIs a deposit required?",
+            "text": "<p>A 50% deposit starts production; the balance is due upon final inspection and satisfaction.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_FEPYxN": {
+          "type": "item",
+          "settings": {
+            "title": "Do you handle complex settings like tension or invisible‑set?",
+            "text": "<p>Our master jewelers specialize in intricate techniques and confirm structural integrity through X‑ray analysis.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_MLMbCT": {
+          "type": "item",
+          "settings": {
+            "title": "Where can I learn more about market tCan my piece be insured before delivery?",
+            "text": "<p>Once cast, we assign a provisional value and provide documents you can forward to your insurer for immediate coverage.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_TBRkid": {
+          "type": "item",
+          "settings": {
+            "title": "Where to get custom design in Boca Raton with privacy?",
+            "text": "<p>Our VIP lounge features a private office, allowing you to discuss sentimental projects discreetly.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_Y3kRx9": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Where can I repair my jewelry afterward?",
+            "text": "<p>Our master goldsmiths and watchmakers perform everything from micro‑pavé tightening to laser welding and full movement overhauls. If you later repurchase or gift your stone, our on‑premise jewelry repair department can restore its setting and polish to showroom perfection, usually within three business days.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_73F79X": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Where can I sell diamonds in Boca Raton?",
+            "text": "<p>Discerning sellers consistently choose Diamonds by Raymond Lee because our transparent pricing, family heritage, and 4.9‑star reputation eliminate the uncertainty that comes with pawnbrokers or online marketplaces. Our private showroom, instant funds, and free, data‑rich appraisal make us the clear answer when wondering where to sell diamonds in Boca Raton.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_h4TdMH": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_k47jVe": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_XmePVh",
+        "item_KfbKyb",
+        "item_ExYgbL",
+        "item_akQp7q",
+        "item_FEPYxN",
+        "item_MLMbCT",
+        "item_TBRkid",
+        "item_Y3kRx9",
+        "item_73F79X",
+        "item_h4TdMH",
+        "item_k47jVe"
+      ],
+      "name": "FAQ List",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "full_width": false,
+        "bg-color": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "image_text_cCEyKf": {
+      "type": "image-text",
+      "blocks": {
+        "image_ripqmj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bb1c338984_1.png"
+          }
+        },
+        "text_yiX3pt": {
+          "type": "text",
+          "settings": {
+            "title": "Earrings that Sparkle with You",
+            "content": "A Graff wedding band is a powerful declaration of love - a circle of everlasting partnership, represented in the flawlessly crafted beauty of a ring.",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ripqmj",
+        "text_yiX3pt"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#fef9f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_text_X3BBcD": {
+      "type": "image-text",
+      "blocks": {
+        "text_UaNeEq": {
+          "type": "text",
+          "settings": {
+            "title": "Bracelets that Embrace Your Style",
+            "content": "Beautifully designed diamond jewellery from the Classic Graff collection honours the purity and fire of the finest Graff diamonds.",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "image_FfbxYe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/luxury-gold-diamond-jewelry_2_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_UaNeEq",
+        "image_FfbxYe"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#fef9f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "hotspot_dR3PED": {
+      "type": "hotspot",
+      "blocks": {
+        "grid_mCUnz3": {
+          "type": "grid",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_34624316.png",
+            "overlay": 100,
+            "mbl_img": "shopify://shop_images/Image_2_2d6aa8d5-4681-4dda-8406-88ffa0fea7db.png",
+            "overlay_m": 100,
+            "title": "Delicate Designs, Bold Impressions",
+            "des": "Handpicked gemstones and intricate designs for a lifetime of luxury.",
+            "btn": "SHOP NOW",
+            "btn_url": "#",
+            "hotspot_link_1": "shopify://products/10k-yellow-gold-5ctw-natural-diamond-vintage-snake-bracelet",
+            "hotspot_top_1": 25,
+            "hotspot_left_1": 56,
+            "hotspot_top_mbl_1": 30,
+            "hotspot_left_mbl_1": 70,
+            "hotspot_link_2": "",
+            "hotspot_top_2": 50,
+            "hotspot_left_2": 50,
+            "hotspot_top_mbl_2": 50,
+            "hotspot_left_mbl_2": 50,
+            "hotspot_link_3": "",
+            "hotspot_top_3": 50,
+            "hotspot_left_3": 50,
+            "hotspot_top_mbl_3": 50,
+            "hotspot_left_mbl_3": 50
+          }
+        }
+      },
+      "block_order": [
+        "grid_mCUnz3"
+      ],
+      "disabled": true,
+      "name": "Hotspot Section",
+      "settings": {
+        "full_width": false,
+        "alignment": "bottom_left",
+        "mobile_alignment": "bottom_left",
+        "content_alignment": "left",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "contact_section_XdUzdt": {
+      "type": "contact-section",
+      "name": " Contact Form",
+      "settings": {
+        "full_width": false,
+        "title": "Contact Information",
+        "heading": "Get In Touch With Us",
+        "subheading": "If you wish to directly reach us, Please fill out the for below-",
+        "phone_text": "Phone",
+        "liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.4701444275015!2d-80.0769134!3d26.375994499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8e1eb43fa33f7%3A0xf93f5b1aa1b5a4cf!2sDiamonds%20By%20Raymond%20Lee!5e0!3m2!1sen!2sbd!4v1755110780680!5m2!1sen!2sbd\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "phone": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "faq_wi6tWb": {
+      "type": "faq",
+      "blocks": {
+        "item_xWaDfd": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_nCdXW4": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_rgmjEd": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_Wxb4kh": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_EUCqg9": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_Jq3pe9": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_3bh6ik": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_tMUXp7": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_XUEUyw": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_DiQwXP": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_xWaDfd",
+        "item_nCdXW4",
+        "item_rgmjEd",
+        "item_Wxb4kh",
+        "item_EUCqg9",
+        "item_Jq3pe9",
+        "item_3bh6ik",
+        "item_tMUXp7",
+        "item_XUEUyw",
+        "item_DiQwXP"
+      ],
+      "disabled": true,
+      "name": "FAQ List",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "full_width": false,
+        "bg-color": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "multicolumn_E4ACtG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pBqjAg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3anxJE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dp8pkN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b9nkfE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pBqjAg",
+        "column_3anxJE",
+        "column_Dp8pkN",
+        "column_b9nkfE"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Get Inspired",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_slide_a3GniJ",
+    "image_with_text_overlay_BnYgyc",
+    "feature_text_VeBetG",
+    "feature_text_KWQDJt",
+    "feature_text_h7Gwcr",
+    "feature_text_9JRHtL",
+    "card_list_63DRha",
+    "testimonial_DACFBC",
+    "faq_PNcQyb",
+    "image_text_cCEyKf",
+    "image_text_X3BBcD",
+    "hotspot_dR3PED",
+    "contact_section_XdUzdt",
+    "faq_wi6tWb",
+    "multicolumn_E4ACtG"
+  ]
+}

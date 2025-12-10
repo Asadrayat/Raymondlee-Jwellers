@@ -1,0 +1,322 @@
+{% liquid
+  assign id = section.id
+%}
+
+<style>
+  .sec-{{ id }} {
+    box-sizing: border-box;
+    margin-top: {{section.settings.margin_top | append: 'px'}};
+    margin-bottom: {{section.settings.margin_bottom | append: 'px'}};
+    padding-top: {{section.settings.padding_top | append: 'px'}};
+    padding-bottom: {{section.settings.padding_bottom | append: 'px'}};
+  }
+
+  @media(max-width: 768px) {
+    .sec-{{ id }} {
+      margin-top: {{section.settings.margin_top_m | append: 'px'}};
+      margin-bottom: {{section.settings.margin_bottom_m | append: 'px'}};
+      padding-top: {{section.settings.padding_top_m | append: 'px'}};
+      padding-bottom: {{section.settings.padding_bottom_m | append: 'px'}};
+    }
+  }
+  .sec-{{ id }} {
+    .wrapper-{{ id }}{
+      overflow: hidden;
+      @media(max-width: 768px){
+        overflow: unset;
+      }
+    }
+    .card-wrapper-{{ id }}{
+      overflow: unset;
+    }
+    .top--wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 48px;
+        @media(max-width: 768px){
+          margin: 0 0 32px;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+        }        
+    }    
+    .sec--title{
+      color: var(--Color-Gray-950, #0C0A09);
+      font-family: "Noto Serif";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 126%; /* 60.48px */
+      letter-spacing: -0.96px;
+      margin: 0;
+      @media(max-width: 768px){
+        font-size: 30px;
+        line-height: 120%; /* 36px */
+        letter-spacing: -0.6px;
+        {% comment %} margin: 0 0 32px; {% endcomment %}
+      }
+    }
+    .content__wrapper{
+      display: flex;
+      position: relative;
+    }
+    .content__wrapper.even--card{
+      transform: translateY(64px);
+      @media(max-width: 768px){
+        transform: translateY(32px);
+      }
+    }
+    .absolute_link {
+      position: absolute;
+      top: 0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      cursor: Pointer;
+    }
+    .text--wrapper{
+      writing-mode: vertical-lr;
+      transform: scale(-1, -1);
+    }
+    .text--wrapper a{
+      color: var(--Color-Gray-950, #0C0A09);
+      margin: 0 0 auto;
+      font-family: "Noto Serif";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 126%; /* 60.48px */
+      letter-spacing: -0.96px;
+      @media(max-width: 768px){
+        font-size: 30px;
+        line-height: 120%; /* 36px */
+        letter-spacing: -0.6px;
+      }
+    }
+    .img-wrapper img{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .swiper{
+      height: max-content;
+    }    
+    .swiper-button-next--{{ id }}, .swiper-button-prev--{{ id }} {
+      position: relative;
+      cursor: pointer;
+    }
+    .ts__nev {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }    
+  }
+  
+</style>
+
+<div class="sec-{{ id }}">
+  <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+    <div class="top--wrapper">
+      <p class="sec--title">{{ section.settings.title }}</p>
+      <div class="ts__nev">
+        <div class="swiper-button-prev--{{ id }}">{% render 'all-icons', name: 'left' %}</div>
+        <div class="swiper-button-next--{{ id }}">{% render 'all-icons', name: 'right' %}</div>
+      </div>
+    </div>
+    <div class="wrapper-{{ id }}">
+      <div class="swiper card-wrapper-{{ id }}">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            {% assign indx = forloop.index | modulo: 2 %}
+            <div class="card-{{ id }} swiper-slide">
+              <div class="content__wrapper {% if indx == 0 %}even--card{% endif %}">
+                <a href="{{ block.settings.url }}" class="absolute_link"></a>
+                <div class="text--wrapper">
+                  {% comment %} <p>{{ block.settings.text }}</p> {% endcomment %}
+                  <a href="{{ block.settings.url }}" class="">{{ block.settings.text }}</a>
+                </div>
+                <div class="img-wrapper">
+                  {% if block.settings.image != null %}
+                    {{ block.settings.image | image_url: width: block.settings.image.width | image_tag: class: 'img' }}
+                  {% else %}
+                    {{ 'image' | placeholder_svg_tag }}
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="btn-wrapper">
+        <div class=" prev-{{ section.id }} hero_slider__nav_icon">{% render 'all-icons', name: 'left_arrow' %}</div>
+        <div class=" next-{{ section.id }} hero_slider__nav_icon">{% render 'all-icons', name: 'right_arrow' %}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    new Swiper('.card-wrapper-{{ id }}', {
+      slidesPerView: 1,
+      spaceBetween: 16,
+      breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1.4,
+          spaceBetween: 16,
+        },
+        // when window width is >= 640px
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 32,
+        },
+        1040: {
+          slidesPerView: 3,
+          spaceBetween: 32,
+        },
+      },
+      navigation: {
+        nextEl: '.swiper-button-next--{{ id }}',
+        prevEl: '.swiper-button-prev--{{ id }}',
+      },
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Image Card Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full Width Section",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing Desktop"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 80
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing Mobile"
+    },
+    {
+      "type": "range",
+      "id": "margin_top_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 32
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Card Slider"
+    }
+  ]
+}
+{% endschema %}

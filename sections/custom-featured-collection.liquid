@@ -1,0 +1,384 @@
+{% comment %}{% endcomment %}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{% liquid
+  assign id = section.id
+%}
+
+<style>
+        #shopify-section-{{id}} {
+          box-sizing: border-box;
+          margin-top: {{section.settings.margin_top | append: 'px'}};
+          margin-bottom: {{section.settings.margin_bottom | append: 'px'}};
+          padding-top: {{section.settings.padding_top | append: 'px'}};
+          padding-bottom: {{section.settings.padding_bottom | append: 'px'}};
+          .button.full.view_btn{
+            width: max-content;
+            /* margin: 16px auto; */
+            &:hover {
+            background: #fff;
+              border: 1px solid #004027;
+              color: #004027;
+            }
+          }
+        }
+
+        @media(max-width: 768px) {
+          #shopify-section-{{id}} {
+            margin-top: {{section.settings.margin_top_m | append: 'px'}};
+            margin-bottom: {{section.settings.margin_bottom_m | append: 'px'}};
+            padding-top: {{section.settings.padding_top_m | append: 'px'}};
+            padding-bottom: {{section.settings.padding_bottom_m | append: 'px'}};
+          }
+        }
+    /* .sec-{{ id }} .page-width {
+        padding: 0;
+    } */
+      .wrapper-{{ id }}{
+      .swiper-grid-column>.swiper-wrapper {
+          flex-wrap: wrap;
+          flex-direction: column;
+          max-height: 1000px;
+      }        
+      .swiper {
+        max-width: 100%;
+      }
+      .--top-block {
+          /* display: grid;
+          grid-template-columns: repeat(2, minmax(0,1fr)); */
+            display: flex;
+            justify-content: space-between;
+
+            align-items: center;
+          gap: var(--Spacing-Container-xxs);
+          align-items: end;
+          box-sizing: border-box;
+          margin-block: 0 var(--Spacing-Container-xxs);
+          /* margin-bottom: var(--Spacing-Container-sm); */
+          {% if section.settings.title == blank and section.settings.subtitle == blank %}
+            display: none;
+          {% endif %}
+
+          {% if section.settings.full_width == true %}
+            padding: 0 var(--Spacing-Section-Section-Horizontal-Padding, 12px);
+            {% endif %}
+
+
+          margin: 0 0 32px 0;
+          @media(max-width: 600px){
+            grid-template-columns: minmax(0,1fr);
+            gap: var(--Spacing-Container-xs);
+
+            flex-direction: column;
+            align-items: flex-start;
+
+          }
+      }
+        h2.--section-title {
+            color: var(--Content-Base-main, #1F2937);
+            /* font-family: var(--font-family-Title, "Neue Plak"); */
+            /* font-size: var(--Font-Size-Heading-H2, 40px); */
+            margin: 0;
+            font-weight: 500;
+            /* line-height: var(--Line-Height-Heading-H2, 40px); */
+            letter-spacing: -0.4px;
+            @media(max-width: 768px) {
+              /* margin-block: 0; */
+               margin-bottom: 16px;
+            }
+            /* margin-block: 0 var(--Spacing-Container-xxs); */
+              {% if  section.settings.subtitle == blank %}
+                 /* margin-block: 0 var(--Spacing-Container-md); */
+                  @media(max-width: 768px) {
+                    /* margin-block: 0; */
+                      /* margin-bottom: 16px; */
+                  }
+              {% endif %}
+        }
+      .--section-subtitle {
+          color: var(--Content-Base-main, #1F2937);
+          /* font-family: var(--font-family-Body, "Neue Plak"); */
+          font-size: var(--Font-Size-Paragraph-Medium);
+          line-height: var(--Line-Height-Paragraph-Medium);
+           margin-bottom: var(--Spacing-Container-sm);
+      }
+
+
+
+
+      .--button-wrapper {
+          display: flex;
+          gap: var(--Spacing-Container-sm);
+          justify-content: flex-end;
+          margin-bottom: var(--Spacing-Container-sm);
+          @media(max-width: 600px){
+            justify-content: flex-start;
+          }
+      }
+      .button.view_btn_ {
+        color: #AA7248;
+          @media(max-width: 768px){
+            margin-bottom: 16px;
+          }
+      }
+      a.--button {
+          display: block;
+          color: #fff;
+          text-align: center;
+          /* font-family: var(--font-family-Body, "Neue Plak"); */
+          font-size: var(--Font-Size-UI-Controls-Control-Button-Small);
+          line-height: var(--Line-Height-UI-Controls-Control-Button-Small);
+          text-transform: capitalize;
+          padding: var(--Spacing-Container-xs) var(--Spacing-Container-sm);
+          border: 2px solid var(--Content-Base-main);
+          background: #004027;
+      }
+
+        .cfc__wrapper {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 48px 32px;
+            @media(max-width: 1040px) {
+              grid-template-columns: repeat(3, 1fr);
+              gap: 48px 16px;              
+            }
+            @media(max-width: 600px) {
+              grid-template-columns: repeat(3, 1fr);
+              gap: 48px 16px;              
+            }
+            @media(max-width: 600px) {
+              display: unset;
+            }
+        }
+
+  @media(max-width: 768px) {
+    .sec-{{ id }} h2.--section-title {
+      /* margin: 0 0 var(--Spacing-Container-lg) 0; */
+    }
+  }
+</style>
+
+<div id="{{ section.settings.id_nav | downcase }}" class="sec-{{ id }}">
+  <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+    <div class="wrapper-{{ id }}">
+      <div class="--top-block">
+        <div class="--text-content">
+          <h2 class="--section-title">{{ section.settings.title }}</h2>
+          <div class="--section-subtitle">{{ section.settings.subtitle }}</div>
+        </div>
+        <a href="{{ section.settings.collection.url }}" class="button view_btn_">
+          {%- if section.settings.button_label != blank %}
+            {{ section.settings.button_label }}
+          {% else %}
+            View All
+          {% endif %}
+          <span>{% render 'all-icons', name: 'btn_arrow' %}</span></a
+        >
+
+        {% if section.settings.button_label != blank and section.settings.secondary_button_label != blank %}
+          <div class="--button-wrapper">
+            {% if section.settings.button_label != blank and section.settings.button_url != blank %}
+              <a class="--button" href="{{ section.settings.button_url }}"> {{ section.settings.button_label }} </a>
+            {% endif %}
+            {% if section.settings.secondary_button_label != blank and section.settings.secondary_button_url != blank %}
+              <a class="--button" href="{{ section.settings.secondary_button_url }}">
+                {{ section.settings.secondary_button_label }}
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+      <div class="--slider-wrapper swiper__container">
+        <div class="cfc__wrapper desktop-only">
+          {% for product in section.settings.collection.products limit: 8 %}
+            {% # render 'product-card-new-v1', product: product, forloop: forloop, class: 'swiper-slide' %}
+            <div class="Card__wrapper">
+              {% # render 'new-product-card', product: product %}
+              {% render 'product-card', product: product %}
+            </div>
+          {% endfor %}
+        </div>
+        <div class="cfc__wrapper mobile-only">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              {% for product in section.settings.collection.products limit: 8 %}
+                <div class="swiper-slide">
+                  {% # render 'product-card-new-v1', product: product, forloop: forloop, class: 'swiper-slide' %}
+                  <div class="Card__wrapper">
+                    {% # render 'new-product-card', product: product %}
+                    {% render 'product-card', product: product %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const heroSwiper = new Swiper('.cfc__wrapper .swiper', {
+      slidesPerView: 1.2,
+      spaceBetween: 32,
+      grid: {
+        rows: 2,
+      },
+    });
+  });
+</script>
+
+
+{% schema %}
+{
+  "name": "New Featured Collection",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full Width Section",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "id_nav",
+      "label": "Id for Navigtion"
+    },
+    {
+      "type": "header",
+      "content": "Section Content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Select Collection"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button Url"
+    },
+    {
+      "type": "text",
+      "id": "secondary_button_label",
+      "label": "Secondary Button Label"
+    },
+    {
+      "type": "url",
+      "id": "secondary_button_url",
+      "label": "Secondary Button Url"
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing Desktop"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 32
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing Mobile"
+    },
+    {
+      "type": "range",
+      "id": "margin_top_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 16
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Custom Featured Collection"
+    }
+  ]
+}
+{% endschema %}

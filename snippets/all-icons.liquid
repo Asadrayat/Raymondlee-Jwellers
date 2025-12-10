@@ -1,0 +1,87 @@
+{% case name %}
+  {% when 'left' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="16" viewBox="0 0 60 16" fill="none">
+      <path d="M7.66667 14.666L1 7.99935M1 7.99935L7.66667 1.33268M1 7.99935L59.5 7.99935" stroke="#AA7248" stroke-linecap="square"/>
+    </svg>
+  {% when 'right' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="16" viewBox="0 0 60 16" fill="none">
+      <path d="M52.3333 14.666L59 7.99935M59 7.99935L52.3333 1.33268M59 7.99935L0.5 7.99935" stroke="#AA7248" stroke-linecap="square"/>
+    </svg>
+  {% when 'pagination_arrow' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <g clip-path="url(#clip0_618_9666)">
+        <path d="M17 7L7 17" stroke="#0B0404" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 7H17V16" stroke="#0B0404" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_618_9666">
+          <rect width="24" height="24" fill="white"/>
+        </clipPath>
+      </defs>
+    </svg>
+  {% when 'hamburger' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M3 8H6" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M3 16H9" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M18 16H21" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M15 8L21 8" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="15" cy="16" r="3" stroke="white"/>
+      <circle cx="9" cy="8" r="3" stroke="white"/>
+    </svg>
+  {% when 'minus' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M18 12L6 12" stroke="#0C0A09" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  {% when 'plus' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M12 6V18M18 12L6 12" stroke="#0C0A09" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  {% when 'account' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+      <circle cx="12" cy="12.5" r="10" stroke="#0B0404" stroke-linejoin="round"/>
+      <path d="M17 17.5C15.5186 16.2256 13.8139 15.5 12 15.5C10.1861 15.5 8.48139 16.2256 7 17.5" stroke="#0B0404" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="3" cy="3" r="3" transform="matrix(1 0 0 -1 9 12.5)" stroke="#0B0404" stroke-linejoin="round"/>
+    </svg>
+  {% when 'rating' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="128" height="24" viewBox="0 0 128 24" fill="none">
+      <path d="M11.9999 2L14.245 8.90983H21.5104L15.6326 13.1803L17.8777 20.0902L11.9999 15.8197L6.12203 20.0902L8.36717 13.1803L2.48931 8.90983H9.75474L11.9999 2Z" fill="#AA7248"/>
+      <path d="M37.9999 2L40.245 8.90983H47.5104L41.6326 13.1803L43.8777 20.0902L37.9999 15.8197L32.122 20.0902L34.3672 13.1803L28.4893 8.90983H35.7547L37.9999 2Z" fill="#AA7248"/>
+      <path d="M63.9999 2L66.245 8.90983H73.5104L67.6326 13.1803L69.8777 20.0902L63.9999 15.8197L58.122 20.0902L60.3672 13.1803L54.4893 8.90983H61.7547L63.9999 2Z" fill="#AA7248"/>
+      <path d="M89.9999 2L92.245 8.90983H99.5104L93.6326 13.1803L95.8777 20.0902L89.9999 15.8197L84.122 20.0902L86.3672 13.1803L80.4893 8.90983H87.7547L89.9999 2Z" fill="#AA7248"/>
+      <path d="M116 2L118.245 8.90983H125.51L119.633 13.1803L121.878 20.0902L116 15.8197L110.122 20.0902L112.367 13.1803L106.489 8.90983H113.755L116 2Z" fill="#AA7248"/>
+    </svg>
+  {% when 'wishlist' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M12.765 4.70229L12 5.52422L11.235 4.70229C9.12233 2.43257 5.69709 2.43257 3.58447 4.70229C1.47184 6.972 1.47184 10.6519 3.58447 12.9217L10.4699 20.3191C11.315 21.227 12.685 21.227 13.5301 20.3191L20.4155 12.9217C22.5282 10.6519 22.5282 6.972 20.4155 4.70229C18.3029 2.43257 14.8777 2.43257 12.765 4.70229Z" stroke="#0B0404" stroke-linejoin="round"/>
+    </svg>
+  {% when 'btn_arrow' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <g clip-path="url(#clip0_70_686)">
+      <path d="M17 7L7 17" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 7H17V16" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <defs>
+      <clipPath id="clip0_70_686">
+      <rect width="24" height="24" fill="white"/>
+      </clipPath>
+      </defs>
+    </svg>
+  {% when 'left_arrow' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">
+      <path d="M6.33333 0.666657L1 5.99999M1 5.99999L6.33333 11.3333M1 5.99999L17 5.99999" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  {% when 'right_arrow' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">
+      <path d="M11.6667 11.3333L17 6.00001M17 6.00001L11.6667 0.666677M17 6.00001L0.999999 6.00001" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  {% when 'link' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16" fill="none">
+      <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  {% when 'close' %}
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M18 6L6 18M6 6L18 18" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  {% else %}
+
+{% endcase %}

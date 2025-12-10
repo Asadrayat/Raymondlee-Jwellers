@@ -1,0 +1,399 @@
+{% liquid
+  assign id = section.id
+%}
+
+<style>
+  #shopify-section-{{id}} {
+    box-sizing: border-box;
+    margin-top: {{section.settings.margin_top | append: 'px'}};
+    margin-bottom: {{section.settings.margin_bottom | append: 'px'}};
+    padding-top: {{section.settings.padding_top | append: 'px'}};
+    padding-bottom: {{section.settings.padding_bottom | append: 'px'}};
+    background: {{  section.settings.bg }};
+  }
+
+  @media(max-width: 600px) {
+    #shopify-section-{{id}} {
+      margin-top: {{section.settings.margin_top_m | append: 'px'}};
+      margin-bottom: {{section.settings.margin_bottom_m | append: 'px'}};
+      padding-top: {{section.settings.padding_top_m | append: 'px'}};
+      padding-bottom: {{section.settings.padding_bottom_m | append: 'px'}};
+    }
+  }
+
+.wrapper-{{ id }} {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    align-items: center;
+        gap: 32px;
+    @media(max-width: 600px) {
+      grid-template-columns: minmax(0,1fr);
+      gap: var(--Spacing-Container-lg, 24px);
+    }
+
+
+.--image-wrapper {
+    overflow: hidden;
+    @media(max-width: 600px) {
+       grid-row: 1/2;
+     }
+  img {
+    width: 100%;
+  }
+   
+}
+  
+.--text-block-container {
+    position: relative;
+     @media(max-width: 600px) {
+       {% comment %} padding-right: unset; {% endcomment %}
+     }
+}
+{% comment %} .--text-block-container.--text-first {
+    padding-right: var(--Spacing-Container-xl);
+     @media(max-width: 600px) {
+       padding-right: unset;
+     }
+}
+.--text-block-container.--text-last {
+    padding-left: var(--Spacing-Container-xl);
+    @media(max-width: 600px) {
+       padding-left: unset;
+     }
+} {% endcomment %}
+.--text-block-container a{
+    width: max-content;
+}
+
+.--title p {
+    color: var(--Color-Netural-White, #FFF);
+
+    /* lg/Medium */
+    font-family: Prata;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%; /* 60.48px */
+    letter-spacing: -0.96px;
+    margin: 0 0 8px;
+    em{
+      display: block;
+      font-style: normal;
+      @media(max-width: 768px) {
+        display: unset;
+      }
+    }
+      @media(max-width: 768px) {
+       font-size: 30px;
+      }
+}  
+
+.--content p {
+    {% comment %} margin-block: var(--Spacing-Container-xs) 48px; {% endcomment %}
+     margin: 0 0 30px;
+    color: var(--Color-Netural-White, #FFF);
+
+    /* Text md/Medium */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    em{
+      display: block;
+      font-style: normal;
+      @media(max-width: 768px) {
+        display: unset;
+      }
+    }
+    {% comment %} @media(max-width: 768px) {
+    display: unset;
+    } {% endcomment %}
+}
+
+
+
+
+
+
+
+.--icon-card-container {
+    display: flex;
+    gap: var(--Spacing-Container-lg);
+}
+.--card-wrapper {
+    text-align: center;
+    color: #fff;
+    font-family: var(--font-family-Body, "Neue Plak");
+    font-size: var(--Font-Size-Paragraph-Small, 14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Line-Height-Paragraph-Small, 20px);
+    img {
+      max-width: 50px;
+      aspect-ratio: 1;
+      margin: 0 auto var(--Spacing-Container-xs);
+    }
+}  
+
+.--content-wrapper {
+    position: absolute;
+    top: 0left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    color: #fff;
+    padding: 40px;
+      @media(max-width: 768px) {
+        padding: 30px;
+      }
+}
+
+
+
+}
+  
+</style>
+
+<div class="sec-{{ id }}">
+  <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+    <div class="wrapper-{{ id }}">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'image' %}
+            <div class="--image-wrapper">
+              {{ block.settings.image | image_url: width: block.settings.image.width | image_tag }}
+            </div>
+          {% when 'text' %}
+            <div class="--text-block-container {% if forloop.first %} --text-first {% else %}--text-last{% endif %}">
+                <div class="--image-wrapper">
+                    {{ block.settings.image | image_url: width: block.settings.image.width | image_tag }}
+                </div>
+                <div class="--content-wrapper">
+                <div class="--title">{{ block.settings.title }}</div>
+                <div class="--content">{{ block.settings.content }}</div>
+                <div class="--icon-card-container">
+                    {% if block.settings.feature_1_label != blank and block.settings.feature_1_icon != blank %}
+                    <div class="--card-wrapper">
+                        {{ block.settings.feature_1_icon | image_url: width: 44 | image_tag }}
+                        {{ block.settings.feature_1_label }}
+                    </div>
+                    {% endif %}
+                    {% if block.settings.feature_2_label != blank and block.settings.feature_2_icon != blank %}
+                    <div class="--card-wrapper">
+                        {{ block.settings.feature_2_icon | image_url: width: 44 | image_tag }}
+                        {{ block.settings.feature_2_label }}
+                    </div>
+                    {% endif %}
+                    {% if block.settings.feature_3_label != blank and block.settings.feature_3_icon != blank %}
+                    <div class="--card-wrapper">
+                        {{ block.settings.feature_3_icon | image_url: width: 44 | image_tag }}
+                        {{ block.settings.feature_3_label }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% unless block.settings.label == blank %}
+                    <a class="button full outlined" href="{{ block.settings.btn_url }}">{{ block.settings.label }}<span>{% render 'all-icons', name: 'btn_arrow' %}</span></a>
+                {% endunless %}
+                </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image Text Overlay",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full Width Section",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "bg",
+      "label": "Background Color",
+      "default": "#FEF9F2"
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing Desktop"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 48
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing Mobile"
+    },
+    {
+      "type": "range",
+      "id": "margin_top_m",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_m",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_m",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_m",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 32
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text Block",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Button Label",
+          "default": "SHOP NOW"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button Link"
+        },
+        {
+          "type": "text",
+          "id": "feature_1_label",
+          "label": "Feature 1 Label"
+        },
+        {
+          "type": "image_picker",
+          "id": "feature_1_icon",
+          "label": "Feature 1 Icon"
+        },
+        {
+          "type": "text",
+          "id": "feature_2_label",
+          "label": "Feature 2 Label"
+        },
+        {
+          "type": "image_picker",
+          "id": "feature_2_icon",
+          "label": "Feature 2 Icon"
+        },
+        {
+          "type": "text",
+          "id": "feature_3_label",
+          "label": "Feature 3 Label"
+        },
+        {
+          "type": "image_picker",
+          "id": "feature_3_icon",
+          "label": "Feature 3 Icon"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Text Overlay"
+    }
+  ]
+}
+{% endschema %}

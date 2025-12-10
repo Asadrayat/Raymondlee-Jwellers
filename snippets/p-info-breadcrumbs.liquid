@@ -1,0 +1,60 @@
+<style>
+    .pinfo-breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--Spacing-Container-xxs, 8px);
+    align-self: stretch;
+    flex-wrap: wrap;
+    column-gap: 0px;
+    padding: var(--Spacing-Container-xs);
+    align-items: center;
+    }
+    .pinfo-breadcrumbs :is(a, span) {
+    color: var(--Color-Dark-500, #0B0404);
+    margin: 0;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    text-transform: uppercase;
+    }
+  .p-info__breadcrumbs.mobile-only {
+     display: none!important;
+     @media(max-width: 600px){
+     display: block!important;
+    }
+  } 
+  .p-info__breadcrumbs.mobile-only .pinfo-breadcrumbs {
+     @media(max-width: 600px){
+      display: flex;
+      {% comment %} padding: var(--Spacing-Container-xs) 0;  {% endcomment %}
+      padding: 0 0 var(--Spacing-Container-md) 0 ; 
+    }
+  } 
+
+</style>
+
+{% assign breadcrumb_collection = collection %}
+
+{% if breadcrumb_collection == nil and product.collections.size > 0 %}
+  {% assign breadcrumb_collection = product.collections.first %}
+{% endif %}
+
+<div class="pinfo-breadcrumbs">
+  <a href="{{ shop.url }}">Home</a>
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+    <path d="M8.3335 5.83334L11.6668 10L8.3335 14.1667" stroke="#0B0404" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+
+  {% if breadcrumb_collection %}
+    <a href="{{ breadcrumb_collection.url }}">{{ breadcrumb_collection.title | escape }}</a>
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+      <path d="M8.3335 5.83334L11.6668 10L8.3335 14.1667" stroke="#0B0404" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  {% endif %}
+
+  <a href="{{ product.url }}">{{ product.title | escape }}</a>
+</div>
+

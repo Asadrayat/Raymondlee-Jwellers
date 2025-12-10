@@ -1,0 +1,116 @@
+{% comment %} Snippet to display number of people viewing the product {% endcomment %}
+{% if block.settings.view_count_text != blank %}
+  <style>
+    .viewer-count {
+      display: flex;
+      {% comment %} justify-content: center; {% endcomment %}
+      align-items: center;
+      gap: 8px;
+      margin-block: 0;
+      p{
+        margin: 0;
+        color: var(--Color-Gray-950, #0C0A09);
+
+        /* Text md/Medium */
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        #viewer-number {
+          color: var(--Color-Gray-950, #0C0A09);
+        }
+      }
+    }
+    .viewer-count svg {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+  <div data-product-id="{{ product.id }}" data-max="{{ block.settings.max }}" data-min="{{ block.settings.min }}" id="viewer-count" class="viewer-count">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M21.1303 9.8531C22.2899 11.0732 22.2899 12.9268 21.1303 14.1469C19.1745 16.2047 15.8155 19 12 19C8.18448 19 4.82549 16.2047 2.86971 14.1469C1.7101 12.9268 1.7101 11.0732 2.86971 9.8531C4.82549 7.79533 8.18448 5 12 5C15.8155 5 19.1745 7.79533 21.1303 9.8531Z" stroke="#0B0404"/>
+  <path d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z" stroke="#0B0404"/>
+</svg>
+    <p><span id="viewer-number">0</span> {{ block.settings.view_count_text }}</p>
+  </div>
+
+{% endif %}
+
+
+<script>
+window.viewerCountPastDay = function() {
+  const viewerElement = document.getElementById('viewer-count');
+  
+  if (!viewerElement || !viewerElement.dataset.productId || !viewerElement.dataset.min || !viewerElement.dataset.max) {
+    return;
+  }
+  const productId = viewerElement.dataset.productId;
+  const storageKey = `viewerCount_${productId}`;
+  const min = parseInt(viewerElement.dataset.min);
+  const max = parseInt(viewerElement.dataset.max);
+
+  function updateViewerCount() {
+    const viewerCount = Math.floor(Math.random() * (max - min + 1)) + min;
+    const numberElement = document.getElementById('viewer-number');
+    if (numberElement) {
+      numberElement.textContent = viewerCount;
+      localStorage.setItem(storageKey, viewerCount);
+      localStorage.setItem(`${storageKey}_timestamp`, new Date().getTime());
+    }
+  }
+
+  function isSameDayInEST(timestamp) {
+    const now = new Date();
+    const estOffset = -5 * 60;
+    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+    const estNow = new Date(utc + (estOffset * 60000));
+    const storedDate = new Date(parseInt(timestamp));
+    const estStored = new Date(storedDate.getTime() + (estOffset * 60000));
+
+    return (
+      estNow.getFullYear() === estStored.getFullYear() &&
+      estNow.getMonth() === estStored.getMonth() &&
+      estNow.getDate() === estStored.getDate()
+    );
+  }
+
+  function scheduleDailyUpdate() {
+    const storedCount = localStorage.getItem(storageKey);
+    const storedTimestamp = localStorage.getItem(`${storageKey}_timestamp`);
+    const numberElement = document.getElementById('viewer-number');
+
+    if (storedCount && storedTimestamp && isSameDayInEST(storedTimestamp) && numberElement) {
+      numberElement.textContent = storedCount;
+    } else {
+      updateViewerCount();
+    }
+
+    const now = new Date();
+    const estOffset = -5 * 60;
+    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+    const estNow = new Date(utc + (estOffset * 60000));
+    const target = new Date(estNow);
+    target.setHours(24, 0, 0, 0);
+
+    if (estNow > target) {
+      target.setDate(target.getDate() + 1);
+    }
+
+    const msUntilMidnight = target.getTime() - estNow.getTime();
+
+    setTimeout(() => {
+      updateViewerCount();
+      setInterval(updateViewerCount, 24 * 60 * 60 * 1000);
+    }, msUntilMidnight);
+  }
+
+  scheduleDailyUpdate();
+};
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  window.viewerCountPastDay();
+});
+</script>

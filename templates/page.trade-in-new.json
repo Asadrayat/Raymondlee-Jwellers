@@ -1,0 +1,928 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_slide_a3GniJ": {
+      "type": "hero-slide",
+      "blocks": {
+        "image_qPQ7Xe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JT1A1663-Edit_245de4ff-6815-4746-83b4-daf1884abf66.jpg",
+            "image_mobile": "shopify://shop_images/JT1A1663-Edit_245de4ff-6815-4746-83b4-daf1884abf66.jpg",
+            "image_overlay_opacity": 65,
+            "content_position": "bottom_left",
+            "content_position_m": "bottom_left",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "left",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "Trade In Watches Jewelry Gold Boca Raton",
+            "subtitle": "For 40 years, Diamonds by Raymond Lee has been Boca Raton’s concierge destination to sell or trade luxury assets—Rolex, diamond bracelets, 24K gold, rare coins.Upgrade, free capital, or declutter with South Florida’s trusted team—sparkling beverages and private-banking-level guidance included.",
+            "btn_label1": "",
+            "btn_url1": "#",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qPQ7Xe"
+      ],
+      "name": "Hero Slider",
+      "settings": {
+        "full_width": false,
+        "banner_height": "adaptive",
+        "enable_autoslide": false,
+        "show_arrow": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "image_text_cCEyKf": {
+      "type": "image-text",
+      "blocks": {
+        "image_ripqmj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/49.png"
+          }
+        },
+        "text_yiX3pt": {
+          "type": "text",
+          "settings": {
+            "title": "Real-Time Valuations, Same-Day Cash",
+            "content": "Our GIA-trained gemologists, master watchmakers, and metals experts work together in our private, 24/7-monitored showroom. Get real-time, on-screen valuations and same-day payout by wire or check—backed by 2,000+ Google reviews and a 4.9★ rating.",
+            "label": "BOOK MY SERVICE",
+            "btn_url": "https://calendly.com/inquiry-diamondsbyraymondlee/30min",
+            "show_full_btn": true,
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ripqmj",
+        "text_yiX3pt"
+      ],
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "rgba(0,0,0,0)",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "custom_steps_4bXUXV": {
+      "type": "custom-steps",
+      "blocks": {
+        "text_nUjjkP": {
+          "type": "text",
+          "settings": {
+            "title": "All major asset classes accepted",
+            "desc": "<p>Fine watches, designer jewelry, loose diamonds, gold bullion, coins, even scrap gold. One visit, one solution.</p>"
+          }
+        },
+        "text_G9Mafq": {
+          "type": "text",
+          "settings": {
+            "title": "On‑site screenshots prove every figure",
+            "desc": "<p>Live WatchCharts, Rapaport diamond sheets, and spot gold pricing ensure you see the exact market drivers.</p>"
+          }
+        },
+        "text_B9iph6": {
+          "type": "text",
+          "settings": {
+            "title": "Private showroom appointments",
+            "desc": "<p>No crowded counters; just you, your specialist, and the assurance of a secure environment.</p>"
+          }
+        },
+        "text_fBrdRU": {
+          "type": "text",
+          "settings": {
+            "title": "Immediate liquidity or leverage",
+            "desc": "<p>Opt for same‑day payment <strong>or</strong> a low‑rate <strong>Jewelry Equity Loan</strong> if you prefer to keep ownership while accessing funds</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_nUjjkP",
+        "text_G9Mafq",
+        "text_B9iph6",
+        "text_fBrdRU"
+      ],
+      "name": "Custom Steps",
+      "settings": {
+        "title": "Why Trade In Your Watches, Jewelry & Gold With Us in Boca Raton",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "image_text_v2_PePiUd": {
+      "type": "image-text-v2",
+      "blocks": {
+        "text_8JQyUi": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "content": "<ol><li><strong>Schedule your appointment</strong> <em>or just swing by, walk-ins welcome.</em><br/></li><li><strong>Visit our private Boca Raton showroom</strong> <em>for a free evaluation, cleaning, and no obligation quote.</em></li><li><strong>Most repairs </strong><em>such as ring sizing and stone tightening are finished within a week, with many simpler jobs ready the same or next day.</em></li></ol>",
+            "label": "BOOK MY SERVICE",
+            "btn_url": "https://calendly.com/inquiry-diamondsbyraymondlee/30min"
+          }
+        },
+        "bullets_m8Fnpi": {
+          "type": "bullets",
+          "settings": {
+            "index": "01",
+            "bullet": "<strong>Request a free quote</strong> via the Get My Quote button. Upload photos or reference numbers for faster pre‑pricing, responses arrive within one business day."
+          }
+        },
+        "bullets_jxtqcV": {
+          "type": "bullets",
+          "settings": {
+            "index": "02",
+            "bullet": "<strong>Visit our private Boca Raton showroom</strong> when convenient. Your dedicated expert inspects each piece under high‑definition microscopes, reviews market data with you, and answers every question."
+          }
+        },
+        "bullets_qVt4NL": {
+          "type": "bullets",
+          "settings": {
+            "index": "03",
+            "bullet": "<strong>Step‑by‑step transparency</strong> transforms what can feel like a stressful transaction elsewhere into an elegant, concierge experience. Many clients time their visit during lunch, walk out funded before their espresso cools, and still make their afternoon tee time at Royal Palm Yacht &  Country Club"
+          }
+        },
+        "image_dKygTB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/35.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_8JQyUi",
+        "bullets_m8Fnpi",
+        "bullets_jxtqcV",
+        "bullets_qVt4NL",
+        "image_dKygTB"
+      ],
+      "name": "Image Text V2 ",
+      "settings": {
+        "full_width": false,
+        "heading": "How Our Process Works",
+        "subheading": "",
+        "show_top_heading": false,
+        "bg": "rgba(0,0,0,0)",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_text_v2_9b79dx": {
+      "type": "image-text-v2",
+      "blocks": {
+        "image_VqtdWR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/33.png"
+          }
+        },
+        "text_ULDxEU": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "content": "",
+            "label": "BOOK MY SERVICE",
+            "btn_url": "https://calendly.com/inquiry-diamondsbyraymondlee/30min"
+          }
+        },
+        "bullets_ehhB7t": {
+          "type": "bullets",
+          "settings": {
+            "index": "01",
+            "bullet": "<strong>Luxury Watches.</strong> Reference number, year of manufacture, servicing history, factory parts, and current luxury watch market demand. Steel Submariner and ceramic‑bezel Daytona references can carry premium multipliers."
+          }
+        },
+        "bullets_tpLeUK": {
+          "type": "bullets",
+          "settings": {
+            "index": "02",
+            "bullet": "<strong>Designer Jewelry.</strong> Maker’s mark (Cartier Love, Van  Cleef  &  Arpels Alhambra), metal purity, presence of original box and papers, and market desirability of the collection."
+          }
+        },
+        "bullets_DKb4HC": {
+          "type": "bullets",
+          "settings": {
+            "index": "03",
+            "bullet": "<strong>Loose Diamonds.</strong> The GIA 4Cs, fluorescence, and recut potential. Rapaport price sheets and recent auction results guide offers."
+          }
+        },
+        "bullets_QVnTBC": {
+          "type": "bullets",
+          "settings": {
+            "index": "04",
+            "bullet": "<strong>Gold Bars, Coins & Bullion.</strong> Daily spot price, weight, purity stamps (PAMP, Credit Suisse), and collectible numismatic premiums on rarities like pre‑1933 U.S. coins."
+          }
+        },
+        "bullets_dnYt9b": {
+          "type": "bullets",
+          "settings": {
+            "index": "05",
+            "bullet": "<strong>Estate or Antique Pieces.</strong> Provenance documentation, period craftsmanship, and restoration status."
+          }
+        }
+      },
+      "block_order": [
+        "image_VqtdWR",
+        "text_ULDxEU",
+        "bullets_ehhB7t",
+        "bullets_tpLeUK",
+        "bullets_DKb4HC",
+        "bullets_QVnTBC",
+        "bullets_dnYt9b"
+      ],
+      "name": "Image Text V2 ",
+      "settings": {
+        "full_width": false,
+        "heading": "What Determines Your Asset Value",
+        "subheading": "Trading multiple asset classes means mastering multiple valuation matrices. We evaluate:",
+        "show_top_heading": true,
+        "bg": "rgba(0,0,0,0)",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_text_v2_z9J4x6": {
+      "type": "image-text-v2",
+      "blocks": {
+        "text_hQgqc6": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "content": "",
+            "label": "BOOK MY SERVICE",
+            "btn_url": "https://calendly.com/inquiry-diamondsbyraymondlee/30min"
+          }
+        },
+        "bullets_NCjEFQ": {
+          "type": "bullets",
+          "settings": {
+            "index": "01",
+            "bullet": "Modern and vintage Rolex, Patek Philippe, Audemars Piguet, Omega, and Panerai watches"
+          }
+        },
+        "bullets_WReb34": {
+          "type": "bullets",
+          "settings": {
+            "index": "02",
+            "bullet": "Designer jewelry from Tiffany&  Co., Bulgari, Harry Winston, and others"
+          }
+        },
+        "bullets_8iC6yL": {
+          "type": "bullets",
+          "settings": {
+            "index": "03",
+            "bullet": "Certified loose diamonds 0.50  ct and larger, matched pairs, and melees over 2  mm"
+          }
+        },
+        "bullets_9LetM4": {
+          "type": "bullets",
+          "settings": {
+            "index": "04",
+            "bullet": "Gold Bars, Coins & Bullion. Daily spot 10  k‑24  k gold in any form, American Eagle and Canadian Maple Leaf coins"
+          }
+        },
+        "bullets_GWnVL7": {
+          "type": "bullets",
+          "settings": {
+            "index": "05",
+            "bullet": "Investment‑grade bullion bars 1  oz to 1  kg, platinum and palladium bars"
+          }
+        },
+        "bullets_E9nCKt": {
+          "type": "bullets",
+          "settings": {
+            "index": "06",
+            "bullet": "High‑end handbags or accessories accepted toward trades on a case‑by‑case basis"
+          }
+        },
+        "image_cD8Law": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/53_42f39091-621c-4a49-9dbc-edf8bf8908e5.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_hQgqc6",
+        "bullets_NCjEFQ",
+        "bullets_WReb34",
+        "bullets_8iC6yL",
+        "bullets_9LetM4",
+        "bullets_GWnVL7",
+        "bullets_E9nCKt",
+        "image_cD8Law"
+      ],
+      "name": "Image Text V2 ",
+      "settings": {
+        "full_width": false,
+        "heading": "Asset Types We Accept at Full Market Value",
+        "subheading": "",
+        "show_top_heading": true,
+        "bg": "rgba(0,0,0,0)",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_with_text_overlay_BnYgyc": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "text_DTQiz3": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1610068946.png",
+            "title": "<p>Necklaces that<em> Define Elegance</em></p>",
+            "content": "<p>Sculptured designs that reimagine the elegant <em>fluidity of lilies as they take shape.</em></p>",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "text_YrqrYQ": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1610068947.png",
+            "title": "<p>Eternal Rings, <em>Timeless Beauty</em></p>",
+            "content": "<p>Jewels that recall the lively<em> silhouette of its namesake bloom.</em></p>",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_DTQiz3",
+        "text_YrqrYQ"
+      ],
+      "disabled": true,
+      "name": "Image Text Overlay",
+      "settings": {
+        "full_width": false,
+        "bg": "#fef9f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "rich_text_XbbNej": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MpVAUb": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Diamonds by Raymond<em> Lee Story</em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_8KifQ9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diamonds by Raymond Lee, a distinguished name in Boca Raton, Florida, is synonymous with ultra-luxury, custom-designed jewelry. For over 40 years, this family-owned and operated business has been a beacon of excellence in the high-end jewelry market, serving a clientele that demands nothing but the best. With a commitment to unparalleled craftsmanship, bespoke designs, and the finest materials, Diamonds by Raymond Lee stands out as a premier destination for those seeking the epitome of luxury in jewelry. At Diamonds by Raymond Lee, we are more than just a jewelry store. We are a family, a community, and a symbol of timeless elegance and beauty.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MpVAUb",
+        "text_8KifQ9"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_text_X3BBcD": {
+      "type": "image-text",
+      "blocks": {
+        "text_UaNeEq": {
+          "type": "text",
+          "settings": {
+            "title": "Bracelets that Embrace Your Style",
+            "content": "Beautifully designed diamond jewellery from the Classic Graff collection honours the purity and fire of the finest Graff diamonds.",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "show_full_btn": false,
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "image_FfbxYe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/luxury-gold-diamond-jewelry_2_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_UaNeEq",
+        "image_FfbxYe"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#fef9f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "hotspot_dR3PED": {
+      "type": "hotspot",
+      "blocks": {
+        "grid_mCUnz3": {
+          "type": "grid",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_34624316.png",
+            "overlay": 100,
+            "mbl_img": "shopify://shop_images/Image_2_2d6aa8d5-4681-4dda-8406-88ffa0fea7db.png",
+            "overlay_m": 100,
+            "title": "Delicate Designs, Bold Impressions",
+            "des": "Handpicked gemstones and intricate designs for a lifetime of luxury.",
+            "btn": "SHOP NOW",
+            "btn_url": "#",
+            "hotspot_link_1": "shopify://products/10k-yellow-gold-5ctw-natural-diamond-vintage-snake-bracelet",
+            "hotspot_top_1": 25,
+            "hotspot_left_1": 56,
+            "hotspot_top_mbl_1": 30,
+            "hotspot_left_mbl_1": 70,
+            "hotspot_link_2": "",
+            "hotspot_top_2": 50,
+            "hotspot_left_2": 50,
+            "hotspot_top_mbl_2": 50,
+            "hotspot_left_mbl_2": 50,
+            "hotspot_link_3": "",
+            "hotspot_top_3": 50,
+            "hotspot_left_3": 50,
+            "hotspot_top_mbl_3": 50,
+            "hotspot_left_mbl_3": 50
+          }
+        }
+      },
+      "block_order": [
+        "grid_mCUnz3"
+      ],
+      "disabled": true,
+      "name": "Hotspot Section",
+      "settings": {
+        "full_width": false,
+        "alignment": "bottom_left",
+        "mobile_alignment": "bottom_left",
+        "content_alignment": "left",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "testimonial_DACFBC": {
+      "type": "testimonial",
+      "blocks": {
+        "text_6JXWky": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Olivia, May  2025",
+            "title": "They’re remarkably transparent",
+            "desc": "<p>“I traded a half‑kilo gold bar <strong>and</strong> a diamond tennis bracelet. Walked out with a wire in 45  minutes and screenshots of the gold spot price, they’re remarkably transparent.”</p>"
+          }
+        },
+        "text_KmTtXp": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Mark, December 2024",
+            "title": "Professional from start to finish",
+            "desc": "<p>“Sold my vintage coin set plus an unwanted Cartier Love ring. Their quote beat three other <strong>asset buyers Boca Raton</strong> stores by 12  %. Professional from start to finish.”</p>"
+          }
+        },
+        "text_eQFdnE": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": " Sofia, August 2024",
+            "title": "Best place to sell jewelry and bullion",
+            "desc": "<p>“Upgraded my husband’s Rolex to a brand new Sub and cashed in loose diamonds, all in one visit. Truly the <strong>best place to sell jewelry and bullion</strong>.”</p>"
+          }
+        },
+        "text_dJhxm6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Eleanor Pena",
+            "title": "\"Perfect gift for my loved ones!\"",
+            "desc": "<p>The intricate details and premium finish make every piece a memorable keepsake.</p>"
+          }
+        },
+        "text_MbhbJW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Ralph Edwards",
+            "title": "\"Luxury and elegance in every piece!\"",
+            "desc": "<p>The attention to detail in every piece is breathtaking—truly a work of art.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6JXWky",
+        "text_KmTtXp",
+        "text_eQFdnE",
+        "text_dJhxm6",
+        "text_MbhbJW"
+      ],
+      "name": "Custom Review",
+      "settings": {
+        "title": "Recent Client Testimonials",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 32,
+        "padding_bottom_mobile": 32
+      }
+    },
+    "contact_section_XdUzdt": {
+      "type": "contact-section",
+      "disabled": true,
+      "name": " Contact Form",
+      "settings": {
+        "full_width": false,
+        "title": "Contact Information",
+        "heading": "Get In Touch With Us",
+        "subheading": "If you wish to directly reach us, Please fill out the for below-",
+        "phone_text": "Phone",
+        "liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.4701444275015!2d-80.0769134!3d26.375994499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8e1eb43fa33f7%3A0xf93f5b1aa1b5a4cf!2sDiamonds%20By%20Raymond%20Lee!5e0!3m2!1sen!2sbd!4v1755110780680!5m2!1sen!2sbd\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "phone": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "faq_wi6tWb": {
+      "type": "faq",
+      "blocks": {
+        "item_xWaDfd": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchasesHow long does the trade‑in process take?",
+            "text": "<p>Most transactions finalize within 30‑60  minutes, including on‑site testing and documentation. Wires typically clear the same business day, providing true <strong>instant payout</strong> convenience.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_nCdXW4": {
+          "type": "item",
+          "settings": {
+            "title": "Can I change my mind after receiving the offer?",
+            "text": "<p>Yes. Our evaluations are 100  % obligation‑free until you sign the purchase agreement. Decline or pause the trade‑in at any stage without fees or pressure.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_rgmjEd": {
+          "type": "item",
+          "settings": {
+            "title": "What documents or ID do I need to bring?",
+            "text": "<p>A government‑issued photo ID plus any original certificates, receipts, or packaging. For bullion, mint assay cards help but are not required. Extra documentation can increase your offer.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_Wxb4kh": {
+          "type": "item",
+          "settings": {
+            "title": "Do you buy broken watches or damaged jewelry?",
+            "text": "<p>Absolutely. Our in‑house watchmakers and jewelers refurbish pieces for resale. Values adjust for repair costs, but we welcome items in any condition.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_EUCqg9": {
+          "type": "item",
+          "settings": {
+            "title": "Is the valuation done in front of me?",
+            "text": "<p>Always. From diamond grading under microscopes to electronic gold testing, every step happens within your line of sight for total transparency.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_Jq3pe9": {
+          "type": "item",
+          "settings": {
+            "title": "Can I receive a Jewelry Equity Loan instead of selling?",
+            "text": "<p>Yes. We offer collateral loans up to 80  % of wholesale value, so you access funds while retaining ownership. Learn more on our collateral loans page.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_3bh6ik": {
+          "type": "item",
+          "settings": {
+            "title": "Do you charge any hidden fees or commissions?",
+            "text": "<p>Never. Quotes include the full amount you will receive. No appraisal fee, no seller’s commission, no shipping costs, just a straightforward cash or wire payment.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_tMUXp7": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_XUEUyw": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_DiQwXP": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_xWaDfd",
+        "item_nCdXW4",
+        "item_rgmjEd",
+        "item_Wxb4kh",
+        "item_EUCqg9",
+        "item_Jq3pe9",
+        "item_3bh6ik",
+        "item_tMUXp7",
+        "item_XUEUyw",
+        "item_DiQwXP"
+      ],
+      "name": "FAQ List",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "full_width": false,
+        "bg-color": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "multicolumn_E4ACtG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pBqjAg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3anxJE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dp8pkN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b9nkfE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pBqjAg",
+        "column_3anxJE",
+        "column_Dp8pkN",
+        "column_b9nkfE"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Get Inspired",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_slide_a3GniJ",
+    "image_text_cCEyKf",
+    "custom_steps_4bXUXV",
+    "image_text_v2_PePiUd",
+    "image_text_v2_9b79dx",
+    "image_text_v2_z9J4x6",
+    "image_with_text_overlay_BnYgyc",
+    "rich_text_XbbNej",
+    "image_text_X3BBcD",
+    "hotspot_dR3PED",
+    "testimonial_DACFBC",
+    "contact_section_XdUzdt",
+    "faq_wi6tWb",
+    "multicolumn_E4ACtG"
+  ]
+}

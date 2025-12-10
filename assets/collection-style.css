@@ -1,0 +1,74 @@
+.active-facets.active-facets-desktop {
+    /* display: none; */
+}
+span.facets__summary-label, .facets__header-vertical--Price .label__{
+    color: var(--Color-Dark-500, #0B0404);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.icon.icon-caret path{
+    fill: #000;    
+}
+.facet-filters__field {
+    gap: 16px;
+    margin-bottom: 0;
+}
+.facet-filters__field .button.full {
+    padding: 12px 24px;
+    display: flex;
+    gap: 16px;    
+}
+.facet-filters__field .select {
+    width: auto;
+    padding: 13px 24px;
+    border: 1px solid var(--Color-Gray-200, #E7E5E4);
+}
+.facet-filters__field .select .svg-wrapper {
+    height: .6rem;
+    width: 1rem;
+    pointer-events: none;
+    position: absolute;
+    top: calc(50% - .2rem);
+    right: 12px;
+}
+.facet-filters__sort:focus-visible {
+    outline: unset !important;
+    outline-offset: 1rem !important;
+    box-shadow: unset !important;
+}
+.facets-wrapper.active {
+    display: none;
+}
+.facets-layout-list--text input[type=checkbox] {
+    border: 1px solid var(--Color-Gray-300, #D6D3D1);
+}
+span.facet-checkbox__text {
+    color: var(--Color-Dark-500, #0B0404);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.facet-checkbox {
+    align-items: center;
+}
+.facet-checkbox .svg-wrapper {
+    top: 18px !important;
+}
+.facets__selected--Price {
+    color: var(--Color-Dark-500, #0B0404);
+    margin: 0;
+    /* Text md/Medium */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */    
+}
+.facets-vertical-form {
+    margin-bottom: 24px;
+}

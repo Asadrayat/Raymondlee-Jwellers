@@ -1,0 +1,1181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_slide_a3GniJ": {
+      "type": "hero-slide",
+      "blocks": {
+        "image_qPQ7Xe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_25407457-65a2-40ee-b4e5-bb588493e3ca.png",
+            "image_mobile": "shopify://shop_images/Engagement_Rings_1_e0c1b74b-8156-4a71-804d-9e81ed679065.png",
+            "image_overlay_opacity": 100,
+            "content_position": "bottom_left",
+            "content_position_m": "bottom_left",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "left",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "<strong>Sell my Rolex</strong>",
+            "subtitle": "You invested in a Rolex because it holdsvalue, prestige, and precision, qualities you deserve when it’s time to sell.For over 40 years, the family-owned Diamonds by Raymond Lee has been BocaRaton’s trusted destination for affluent collectors who demand concierge‑levelservice, transparent pricing, and <strong>instantpayout</strong>. Our GIA‑certified team leverages live <strong>luxury watch market</strong> data to generate on‑screen valuations you canverify in real time. Schedule a private showroom visit under 24/7 CCTV, andyou’ll see why discerning owners call us the <em>best place to sell Rolex</em> on the Gold Coast.",
+            "btn_label1": "Get Quote",
+            "btn_url1": "#",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        },
+        "image_hmUjJ4": {
+          "type": "image",
+          "settings": {
+            "image_overlay_opacity": 100,
+            "content_position": "bottom_center",
+            "content_position_m": "middle_center",
+            "color__info": "#1f2937",
+            "color__info_m": "#1f2937",
+            "info_align": "center",
+            "info_align_m": "center",
+            "pretitle": "Pre Title",
+            "heading_size": "medium",
+            "title": "Heading",
+            "subtitle": "Banner Description",
+            "btn_label1": "Shop Men's",
+            "btn_url1": "",
+            "btn_label2": "Shop Women's",
+            "btn_url2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qPQ7Xe",
+        "image_hmUjJ4"
+      ],
+      "name": "Hero Slider",
+      "settings": {
+        "full_width": false,
+        "banner_height": "adaptive",
+        "enable_autoslide": false,
+        "show_arrow": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "image_with_text_overlay_BnYgyc": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "text_DTQiz3": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1610068946.png",
+            "title": "<p>Necklaces that<em> Define Elegance</em></p>",
+            "content": "<p>Sculptured designs that reimagine the elegant <em>fluidity of lilies as they take shape.</em></p>",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "text_YrqrYQ": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1610068947.png",
+            "title": "<p>Eternal Rings, <em>Timeless Beauty</em></p>",
+            "content": "<p>Jewels that recall the lively<em> silhouette of its namesake bloom.</em></p>",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_DTQiz3",
+        "text_YrqrYQ"
+      ],
+      "disabled": true,
+      "name": "Image Text Overlay",
+      "settings": {
+        "full_width": false,
+        "bg": "#fef9f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "rich_text_XbbNej": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MpVAUb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Why Sell Your Rolex to Us in Boca Raton</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MpVAUb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "card_list_eKYwMJ": {
+      "type": "card-list",
+      "blocks": {
+        "card_nt4naf": {
+          "type": "card",
+          "settings": {
+            "title": "Data‑Driven Transparency",
+            "des": "We show you timestamped screenshots of thewholesale feed so you know exactly how we arrive at your offer.",
+            "image": "shopify://shop_images/icon_sertificat.png"
+          }
+        },
+        "card_8Wqpcq": {
+          "type": "card",
+          "settings": {
+            "title": "Same‑Day Payment",
+            "des": "Choose wire or check and leave with funds inhand, typically within 30 minutes.",
+            "image": "shopify://shop_images/image_3.png"
+          }
+        },
+        "card_ywn9ri": {
+          "type": "card",
+          "settings": {
+            "title": "Flexible Options",
+            "des": "Take cash, trade up, or unlock liquidity through collateral loans without parting with your watch.",
+            "image": "shopify://shop_images/icon_unsertificat.png"
+          }
+        },
+        "card_WNPUax": {
+          "type": "card",
+          "settings": {
+            "title": "World‑Class Security",
+            "des": "From insured shipping labels to a showroom monitored 24/7, your Submariner or Daytona is protected every step of the way.",
+            "image": "shopify://shop_images/icon_colored.png"
+          }
+        },
+        "card_QUnm7c": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Rare Diamond Jewelry",
+            "des": "We have a passion for rare diamond jewelry, from antique pieces tovintage and haute joallerie collections. We appreciate the craftsmanship and are committed to giving you a return that acknowledges the piece’s worth.",
+            "image": "shopify://shop_images/icon_piedestal.png"
+          }
+        },
+        "card_PHbFDY": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Upgrade Your Diamonds",
+            "des": "Diamonds may last forever, but tastes evolve. Take advantage of our upgrade services to find a new diamond that reflects your current preferences, with a 100% credit towards future upgrades.",
+            "image": "shopify://shop_images/icon_diamand-up.png"
+          }
+        }
+      },
+      "block_order": [
+        "card_nt4naf",
+        "card_8Wqpcq",
+        "card_ywn9ri",
+        "card_WNPUax",
+        "card_QUnm7c",
+        "card_PHbFDY"
+      ],
+      "name": "Card List",
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "enable_slider": false,
+        "slides_per_view": 3,
+        "slides_per_view_mbl": 1.2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "rich_text_JprWmi": {
+      "type": "rich-text",
+      "blocks": {
+        "text_9y8qft": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Local clients searching for a Rolex buyer in Boca Raton appreciate our 4.9‑star Google rating backed by over 2,000 reviews.</p>"
+          }
+        },
+        "button_P7PqXC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Quote",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_9y8qft",
+        "button_P7PqXC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_tFVEFk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gDT34q": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>How Our Process Works</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_jeATDh": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gDT34q",
+        "text_jeATDh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "card_list_mnD79X": {
+      "type": "card-list",
+      "blocks": {
+        "card_W87a9d": {
+          "type": "card",
+          "settings": {
+            "title": "Request a Free Quote",
+            "des": "Hit the Get My Quote button or call us. Upload photos and basic details for a quick range.",
+            "image": "shopify://shop_images/icon_sertificat.png"
+          }
+        },
+        "card_Ci6R86": {
+          "type": "card",
+          "settings": {
+            "title": "Ship or Visit",
+            "des": "Book a private showroom appointment. Every unboxing is filmed for your peace of mind.",
+            "image": "shopify://shop_images/image_3.png"
+          }
+        },
+        "card_itThx9": {
+          "type": "card",
+          "settings": {
+            "title": "Get Paid",
+            "des": "Agree to the final figure and receive your instant payout by wire or certified check.",
+            "image": "shopify://shop_images/icon_unsertificat.png"
+          }
+        },
+        "card_KgT6gJ": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "World‑Class Security",
+            "des": "From insured shipping labels to a showroom monitored 24/7, your Submariner or Daytona is protected every step of the way.",
+            "image": "shopify://shop_images/icon_colored.png"
+          }
+        },
+        "card_cYxtFc": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Rare Diamond Jewelry",
+            "des": "We have a passion for rare diamond jewelry, from antique pieces tovintage and haute joallerie collections. We appreciate the craftsmanship and are committed to giving you a return that acknowledges the piece’s worth.",
+            "image": "shopify://shop_images/icon_piedestal.png"
+          }
+        },
+        "card_LLMxRc": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Upgrade Your Diamonds",
+            "des": "Diamonds may last forever, but tastes evolve. Take advantage of our upgrade services to find a new diamond that reflects your current preferences, with a 100% credit towards future upgrades.",
+            "image": "shopify://shop_images/icon_diamand-up.png"
+          }
+        }
+      },
+      "block_order": [
+        "card_W87a9d",
+        "card_Ci6R86",
+        "card_itThx9",
+        "card_KgT6gJ",
+        "card_cYxtFc",
+        "card_LLMxRc"
+      ],
+      "name": "Card List",
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "enable_slider": false,
+        "slides_per_view": 3,
+        "slides_per_view_mbl": 1.2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "rich_text_NPnRkD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DNxaHx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Prefer not to sell outright? Convert equity into cash in under an hour with a Jewelry Equity Loan. Our alternative to traditional lending that keeps your Rolex in our vault until you’re ready to retrieve it.</p>"
+          }
+        },
+        "button_iAUzqa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Quote",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_DNxaHx",
+        "button_iAUzqa"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_CNmdfq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DtT7zA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>What Determines Your Rolex Value</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_GpkE3K": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DtT7zA",
+        "text_GpkE3K"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "card_list_MRbF8m": {
+      "type": "card-list",
+      "blocks": {
+        "card_wYNYpW": {
+          "type": "card",
+          "settings": {
+            "title": "Age & Reference",
+            "des": "A vintage 1680 Submariner may command more than a modern counterpart, while coveted references like a ceramic‑bezel Daytona soar on demand spikes",
+            "image": "shopify://shop_images/icon_sertificat.png"
+          }
+        },
+        "card_V3feE9": {
+          "type": "card",
+          "settings": {
+            "title": "Condition",
+            "des": "Original parts, minimal polishing, and crisp lugs impact offers significantly during our in‑house appraisals.",
+            "image": "shopify://shop_images/image_3.png"
+          }
+        },
+        "card_cwnNFL": {
+          "type": "card",
+          "settings": {
+            "title": "Papers & Box",
+            "des": "A full set adds authenticity and up to 20% in value.",
+            "image": "shopify://shop_images/icon_unsertificat.png"
+          }
+        },
+        "card_HBLCQQ": {
+          "type": "card",
+          "settings": {
+            "title": "Current Demand",
+            "des": "We track the wholesale feed live to capture surges before the market settles.",
+            "image": "shopify://shop_images/icon_colored.png"
+          }
+        },
+        "card_CQTabR": {
+          "type": "card",
+          "settings": {
+            "title": "Model Rarity",
+            "des": "Limited editions such as the “Kermit” Submariner or two‑tone Sky‑Dweller bring premium bids.",
+            "image": "shopify://shop_images/icon_piedestal.png"
+          }
+        },
+        "card_zVU6tJ": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Upgrade Your Diamonds",
+            "des": "Diamonds may last forever, but tastes evolve. Take advantage of our upgrade services to find a new diamond that reflects your current preferences, with a 100% credit towards future upgrades.",
+            "image": "shopify://shop_images/icon_diamand-up.png"
+          }
+        }
+      },
+      "block_order": [
+        "card_wYNYpW",
+        "card_V3feE9",
+        "card_cwnNFL",
+        "card_HBLCQQ",
+        "card_CQTabR",
+        "card_zVU6tJ"
+      ],
+      "name": "Card List",
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "enable_slider": false,
+        "slides_per_view": 3,
+        "slides_per_view_mbl": 1.2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "rich_text_LX8Gzj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_jyiz4Y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Need a quick bracelet touch‑up first? Our Swiss‑trained technicians can handle jewelry repair while you sip espresso in our lounge, boosting resale value on the spot.</p>"
+          }
+        },
+        "button_zbCcJ7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Quote",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_jyiz4Y",
+        "button_zbCcJ7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_text_cCEyKf": {
+      "type": "image-text",
+      "blocks": {
+        "image_ripqmj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bb1c338984_1.png"
+          }
+        },
+        "text_yiX3pt": {
+          "type": "text",
+          "settings": {
+            "title": "Earrings that Sparkle with You",
+            "content": "A Graff wedding band is a powerful declaration of love - a circle of everlasting partnership, represented in the flawlessly crafted beauty of a ring.",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ripqmj",
+        "text_yiX3pt"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#fef9f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_text_X3BBcD": {
+      "type": "image-text",
+      "blocks": {
+        "text_UaNeEq": {
+          "type": "text",
+          "settings": {
+            "title": "Bracelets that Embrace Your Style",
+            "content": "Beautifully designed diamond jewellery from the Classic Graff collection honours the purity and fire of the finest Graff diamonds.",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "image_FfbxYe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/luxury-gold-diamond-jewelry_2_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_UaNeEq",
+        "image_FfbxYe"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#fef9f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "hotspot_dR3PED": {
+      "type": "hotspot",
+      "blocks": {
+        "grid_mCUnz3": {
+          "type": "grid",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_34624316.png",
+            "overlay": 100,
+            "mbl_img": "shopify://shop_images/Image_2_2d6aa8d5-4681-4dda-8406-88ffa0fea7db.png",
+            "overlay_m": 100,
+            "title": "Delicate Designs, Bold Impressions",
+            "des": "Handpicked gemstones and intricate designs for a lifetime of luxury.",
+            "btn": "SHOP NOW",
+            "btn_url": "#",
+            "hotspot_link_1": "shopify://products/10k-yellow-gold-5ctw-natural-diamond-vintage-snake-bracelet",
+            "hotspot_top_1": 25,
+            "hotspot_left_1": 56,
+            "hotspot_top_mbl_1": 30,
+            "hotspot_left_mbl_1": 70,
+            "hotspot_link_2": "",
+            "hotspot_top_2": 50,
+            "hotspot_left_2": 50,
+            "hotspot_top_mbl_2": 50,
+            "hotspot_left_mbl_2": 50,
+            "hotspot_link_3": "",
+            "hotspot_top_3": 50,
+            "hotspot_left_3": 50,
+            "hotspot_top_mbl_3": 50,
+            "hotspot_left_mbl_3": 50
+          }
+        }
+      },
+      "block_order": [
+        "grid_mCUnz3"
+      ],
+      "disabled": true,
+      "name": "Hotspot Section",
+      "settings": {
+        "full_width": false,
+        "alignment": "bottom_left",
+        "mobile_alignment": "bottom_left",
+        "content_alignment": "left",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "testimonial_DACFBC": {
+      "type": "testimonial",
+      "blocks": {
+        "text_6JXWky": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Logan, May 2025",
+            "title": "“Walked in with my Submariner and walked out with a wire receipt-all under 45 minutes. Totally transparent.”",
+            "desc": ""
+          }
+        },
+        "text_KmTtXp": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Emily, January 2025",
+            "title": "“I shipped my Daytona from Miami, and they wired funds the same day they opened the box. Flawless.”",
+            "desc": "<p>The intricate details and premium finish make every piece a memorable keepsake.</p>"
+          }
+        },
+        "text_eQFdnE": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Carlos, September 2024",
+            "title": "“Traded my Date just toward a Patek Philippe upgrade; best valuation among three stores.”",
+            "desc": "<p>The attention to detail in every piece is breathtaking—truly a work of art.</p>"
+          }
+        },
+        "text_dJhxm6": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Eleanor Pena",
+            "title": "\"Perfect gift for my loved ones!\"",
+            "desc": "<p>The intricate details and premium finish make every piece a memorable keepsake.</p>"
+          }
+        },
+        "text_MbhbJW": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Ralph Edwards",
+            "title": "\"Luxury and elegance in every piece!\"",
+            "desc": "<p>The attention to detail in every piece is breathtaking—truly a work of art.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6JXWky",
+        "text_KmTtXp",
+        "text_eQFdnE",
+        "text_dJhxm6",
+        "text_MbhbJW"
+      ],
+      "name": "Custom Review",
+      "settings": {
+        "title": "Recent Client Testimonials",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 32,
+        "padding_bottom_mobile": 32
+      }
+    },
+    "rich_text_6H73am": {
+      "type": "rich-text",
+      "blocks": {
+        "text_eFARhx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Catch more stories at our weekly Diamonds and Donuts car show where clients share victories over coffee and supercars.</p>"
+          }
+        },
+        "button_bYganr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Quote",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_eFARhx",
+        "button_bYganr"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "contact_section_XdUzdt": {
+      "type": "contact-section",
+      "name": " Contact Form",
+      "settings": {
+        "full_width": false,
+        "title": "Contact Information",
+        "heading": "Get In Touch With Us",
+        "subheading": "If you wish to directly reach us, Please fill out the for below-",
+        "phone_text": "Phone",
+        "liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.4701444275015!2d-80.0769134!3d26.375994499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8e1eb43fa33f7%3A0xf93f5b1aa1b5a4cf!2sDiamonds%20By%20Raymond%20Lee!5e0!3m2!1sen!2sbd!4v1755110780680!5m2!1sen!2sbd\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "phone": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "faq_wi6tWb": {
+      "type": "faq",
+      "blocks": {
+        "item_xWaDfd": {
+          "type": "item",
+          "settings": {
+            "title": "How long does the process take?",
+            "text": "<p>In‑person transactions average 30-60 minutes from handshake to wire. Remote sellers are paid within 24 hours of package arrival and authentication.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_nCdXW4": {
+          "type": "item",
+          "settings": {
+            "title": "Is my shipment insured the whole way?",
+            "text": "<p>Yes. Our label covers the declared value through Lloyd’s of London, and every movement is tracked and recorded until funds hit your account.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_rgmjEd": {
+          "type": "item",
+          "settings": {
+            "title": "Can I back out after receiving the final quote?",
+            "text": "<p>Absolutely. Evaluations are 100% risk‑free and no obligation. Decline and we overnight your watch back at our expense, fully insured.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_Wxb4kh": {
+          "type": "item",
+          "settings": {
+            "title": "What if my Rolex needs service?",
+            "text": "<p>Minor servicing rarely affects our offer. If<br/>refurbishment enhances value, we’ll explain options or handle swift jewelry<br/>repair before completing the sale.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_EUCqg9": {
+          "type": "item",
+          "settings": {
+            "title": "Do you only buy Rolex?",
+            "text": "<p>While Rolex is our specialty, we actively<br/>purchase Audemars Piguet, Patek Philippe, Cartier, and other luxury brands with<br/>the same transparent approach.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_Jq3pe9": {
+          "type": "item",
+          "settings": {
+            "title": "Can you pay off my existing loan?",
+            "text": "<p>Yes. We can wire your lender to clear any<br/>balance, then send you the remaining equity, often in one seamless transaction.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_3bh6ik": {
+          "type": "item",
+          "settings": {
+            "title": "Are your valuations the best in town?",
+            "text": "<p>Our goal is fair market‑leading offers. Because we sell directly to our global network, we can surpass many bids from pawnshops or online marketplaces, making us the clear answer to “where to sell Rolex in Boca Raton.”</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_tMUXp7": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_XUEUyw": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_DiQwXP": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_xWaDfd",
+        "item_nCdXW4",
+        "item_rgmjEd",
+        "item_Wxb4kh",
+        "item_EUCqg9",
+        "item_Jq3pe9",
+        "item_3bh6ik",
+        "item_tMUXp7",
+        "item_XUEUyw",
+        "item_DiQwXP"
+      ],
+      "name": "FAQ List",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "full_width": false,
+        "bg-color": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "rich_text_8Ah84a": {
+      "type": "rich-text",
+      "blocks": {
+        "text_zYyxkG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Need a quick bracelet touch‑up first? Our Swiss‑trained technicians can handle jewelry repair while you sip espresso in our lounge, boosting resale value on the spot.</p>"
+          }
+        },
+        "button_QjrKRV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Quote",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_zYyxkG",
+        "button_QjrKRV"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_xjyTqC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6yQ7CA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Get Started Today</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_A6DQJA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your Rolex has journeyed with you, now let it fund your next adventure. Request your free quote, book a private showroom visit, or secure our insured shipping kit. There’s no pressure, no gimmicks, only Boca Raton’s most trusted buyer ready to deliver unrivaled value and impeccable service.</p>"
+          }
+        },
+        "button_6Tm8gQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get My Free Quote",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6yQ7CA",
+        "text_A6DQJA",
+        "button_6Tm8gQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_E4ACtG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pBqjAg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3anxJE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dp8pkN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b9nkfE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pBqjAg",
+        "column_3anxJE",
+        "column_Dp8pkN",
+        "column_b9nkfE"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Get Inspired",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_slide_a3GniJ",
+    "image_with_text_overlay_BnYgyc",
+    "rich_text_XbbNej",
+    "card_list_eKYwMJ",
+    "rich_text_JprWmi",
+    "rich_text_tFVEFk",
+    "card_list_mnD79X",
+    "rich_text_NPnRkD",
+    "rich_text_CNmdfq",
+    "card_list_MRbF8m",
+    "rich_text_LX8Gzj",
+    "image_text_cCEyKf",
+    "image_text_X3BBcD",
+    "hotspot_dR3PED",
+    "testimonial_DACFBC",
+    "rich_text_6H73am",
+    "contact_section_XdUzdt",
+    "faq_wi6tWb",
+    "rich_text_8Ah84a",
+    "rich_text_xjyTqC",
+    "multicolumn_E4ACtG"
+  ]
+}

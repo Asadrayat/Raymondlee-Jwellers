@@ -1,0 +1,330 @@
+{
+  "sections": {
+    "hero_slide_Dj7iFf": {
+      "type": "hero-slide",
+      "blocks": {
+        "image_EB879Q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JT1A6284-Edit.jpg",
+            "image_mobile": "shopify://shop_images/JT1A6284-Edit.jpg",
+            "image_overlay_opacity": 100,
+            "content_position": "bottom_left",
+            "content_position_m": "bottom_left",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "left",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "<strong>Raymond Lee Jewelers</strong>",
+            "subtitle": "Four Decades of Unparalleled Craftsmanship in Luxury Jewelry and Watches",
+            "btn_label1": "Shop Now",
+            "btn_url1": "shopify://collections/all",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        },
+        "image_DgHFQ9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2217_1.jpg",
+            "image_mobile": "shopify://shop_images/IMG_2217_1.jpg",
+            "image_overlay_opacity": 65,
+            "content_position": "bottom_left",
+            "content_position_m": "bottom_left",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "left",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "<strong>Sell Diamond Jewelry, Gold & Watches</strong>",
+            "subtitle": "Your luxury destination in Boca Raton for selling fine jewelry, gold, and watches.",
+            "btn_label1": "Sell To Us",
+            "btn_url1": "shopify://pages/sell-to-us-general",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        }
+      },
+      "block_order": ["image_EB879Q", "image_DgHFQ9"],
+      "name": "Landing Page Slider",
+      "settings": {
+        "full_width": true,
+        "banner_height": "adaptive",
+        "enable_autoslide": true,
+        "show_arrow": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "image_card_slider_Fqak4P": {
+      "type": "image-card-slider-hs",
+      "blocks": {
+        "card_qDaRJD": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/JT1A9854-Edit_Large_148af954-7e94-4f30-9d67-b435d21385ab.jpg",
+            "text": "Necklaces",
+            "url": "shopify://collections/necklaces"
+          }
+        },
+        "card_KjTTnc": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/7X1A6256_5x7_393d6f56-3e14-40a3-961c-c14186c68380.jpg",
+            "text": "Bracelets",
+            "url": "shopify://collections/bracelets"
+          }
+        },
+        "card_VGER7e": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/7X1A0105_205x7_09b1db1b-8aea-4ef6-bb8d-b054f95b5641.jpg",
+            "text": "Rings",
+            "url": "shopify://collections/rings"
+          }
+        },
+        "card_TV3Nfd": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/JT1A8301-Edit_Large_87dd0196-1730-4cbc-b087-b293450a094b.jpg",
+            "text": "Earrings",
+            "url": "shopify://collections/earrings"
+          }
+        }
+      },
+      "block_order": [
+        "card_qDaRJD",
+        "card_KjTTnc",
+        "card_VGER7e",
+        "card_TV3Nfd"
+      ],
+      "name": "Shop By Category - Jewelry",
+      "settings": {
+        "title": "Shop By Category",
+        "full_width": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "multirow_dkKTpV": {
+      "type": "multirow",
+      "blocks": {
+        "row_GwUXRG": {
+          "type": "row",
+          "name": "Engagement rings",
+          "settings": {
+            "image": "shopify://shop_images/DSC09063_8b7df7ac-32e1-45cc-a401-87edb12765dc.jpg",
+            "caption": "Engagement Rings",
+            "heading": "Love Perfected",
+            "text": "<p>From classic solitaires to modern statement designs, our collection of diamond engagement rings offer every shape, design, and setting imaginable, ensuring you find the ring that perfectly symbolizes your forever love</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/engagement-rings"
+          }
+        },
+        "row_jTntHx": {
+          "type": "row",
+          "name": "Wedding bands",
+          "settings": {
+            "image": "shopify://shop_images/DSC06879_Large_da5ffec8-d9cc-496c-91fd-55acd0a03125.jpg",
+            "caption": "Wedding & Anniversary rings",
+            "heading": "Rings For Every Milestone",
+            "text": "<p>Elegant wedding & anniversary rings in platinum, white, yellow, and rose gold, from delicate half-way bands to sparkling eternity styles</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/wedding-bands"
+          }
+        }
+      },
+      "block_order": ["row_GwUXRG", "row_jTntHx"],
+      "name": "Engagement and Bridal",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "shop_the_look_FffjgK": {
+      "type": "shop-the-look",
+      "blocks": {
+        "collection_GYT7i3": {
+          "type": "collection",
+          "settings": { "collection": "rolex" }
+        }
+      },
+      "block_order": ["collection_GYT7i3"],
+      "name": "Rolex Models",
+      "settings": {
+        "sec_id": "",
+        "heading": "Shop Popular Rolex Models",
+        "full_width": false,
+        "pretitle": "Precision in its finest form",
+        "title": "",
+        "label": "SHOP NOW",
+        "url": "shopify://collections/rolex",
+        "image": "shopify://shop_images/DSC03248_ff90897f-d236-4274-8ddd-7cd0516504f3.jpg",
+        "img_position": "right",
+        "p_to_show": 12,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "icon_with_text_mNL6hg": {
+      "type": "icon-with-text",
+      "blocks": {
+        "text_TNMLWa": {
+          "type": "text",
+          "settings": {
+            "badge": "shopify://shop_images/Group_1000001826.png",
+            "text": "<strong>Free Shipping </strong>You will love at great low prices"
+          }
+        },
+        "text_EkMpBf": {
+          "type": "text",
+          "settings": {
+            "badge": "shopify://shop_images/Group_1000001825.png",
+            "text": "<strong>14 Days Returns </strong>Within 14 days"
+          }
+        },
+        "text_VgJzPX": {
+          "type": "text",
+          "settings": {
+            "badge": "shopify://shop_images/Group_1000001824.png",
+            "text": "<strong>Customer Support </strong>24 hours a day, 7 days a week"
+          }
+        },
+        "text_EMM9Bt": {
+          "type": "text",
+          "settings": {
+            "badge": "shopify://shop_images/Group_1000001823.png",
+            "text": "<strong>Flexible Payment </strong>Pay with multiple credit cards"
+          }
+        }
+      },
+      "block_order": [
+        "text_TNMLWa",
+        "text_EkMpBf",
+        "text_VgJzPX",
+        "text_EMM9Bt"
+      ],
+      "name": "Icon With Text",
+      "settings": {
+        "full_width": false,
+        "heading": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "multicolumn_PPUCiP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6XUyeq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/JT1A2096-Edit_Large_59238cd0-b087-4c25-a0ed-1af196a0e489.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YjNVx6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/JT1A0525-Edit_40cf9ae0-3d1d-4e79-bc26-4801097b1e84.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Lf7FEb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC00482.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UYaftc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/JT1A9547_Large_075d0565-38c1-4478-a4ee-8e57bb8cd89e.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6XUyeq",
+        "column_YjNVx6",
+        "column_Lf7FEb",
+        "column_UYaftc"
+      ],
+      "name": "Get Inspired Photos",
+      "settings": {
+        "title": "Get Inspired",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "hero_slide_Dj7iFf",
+    "image_card_slider_Fqak4P",
+    "multirow_dkKTpV",
+    "shop_the_look_FffjgK",
+    "icon_with_text_mNL6hg",
+    "multicolumn_PPUCiP"
+  ]
+}

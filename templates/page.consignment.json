@@ -1,0 +1,841 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_slide_a3GniJ": {
+      "type": "hero-slide",
+      "blocks": {
+        "image_qPQ7Xe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_1.png",
+            "image_mobile": "shopify://shop_images/Engagement_Rings_2.png",
+            "image_overlay_opacity": 100,
+            "content_position": "bottom_left",
+            "content_position_m": "middle_center",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "center",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "Consignment East Boca Raton",
+            "subtitle": "Turn your luxury jewelry, gold, and watches into cash or store credit in the heart of East Boca Raton.",
+            "btn_label1": "",
+            "btn_url1": "",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qPQ7Xe"
+      ],
+      "name": "Hero Slider",
+      "settings": {
+        "full_width": false,
+        "banner_height": "adaptive",
+        "enable_autoslide": true,
+        "show_arrow": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "rich_text_NbeBzf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NwCxA8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Creating Your Dream Jewelry: A Personalized<em> Design Process</em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_M6CwRy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Design your dream jewelry with our personalized custom design process. From initial consultation to jewelry, <em>we’ll bring your vision to life.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NwCxA8",
+        "text_M6CwRy"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_text_X3BBcD": {
+      "type": "image-text",
+      "blocks": {
+        "text_UaNeEq": {
+          "type": "text",
+          "settings": {
+            "title": "Consignment Services East Boca Raton",
+            "content": "Turn your luxury jewelry, gold, and watches into cash or store credit in the heart of East Boca Raton. Diamonds by Raymond Lee specializes in premium consignment services for high-end brands like Rolex, Cartier, and Tiffany & Co., as well as other designer pieces, gold jewelry, and luxury watches. With decades of experience serving the East Boca Raton community, our trusted experts are committed to helping you secure the best value for your items. Our process is seamless, confidential, and tailored to those who value transparency and professionalism.",
+            "label": "Contact Us",
+            "btn_url": "shopify://pages/contact",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "image_FfbxYe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_5.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_UaNeEq",
+        "image_FfbxYe"
+      ],
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "1755254459511194a4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_4282f8f_G6abV8": {
+          "type": "ai_gen_block_4282f8f",
+          "settings": {
+            "heading": "Multicolumn",
+            "heading_alignment": "center",
+            "layout_type": "grid",
+            "columns_desktop": 3,
+            "columns_mobile": "1",
+            "slide_width": 300,
+            "slide_width_mobile": 250,
+            "content_alignment": "center",
+            "column_gap": 30,
+            "image_width": 150,
+            "image_height": 150,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "heading_size": 32,
+            "title_size": 18,
+            "description_size": 14,
+            "background_color": "#ffffff",
+            "text_color": "#000000",
+            "section_padding_top": 60,
+            "section_padding_bottom": 60,
+            "column_1_enabled": true,
+            "column_1_title": "Column 1",
+            "column_1_description": "Pair text with an image to focus on your chosen product, collection, or blog post.",
+            "column_2_enabled": true,
+            "column_2_title": "Column 2",
+            "column_2_description": "Pair text with an image to focus on your chosen product, collection, or blog post.",
+            "column_3_enabled": true,
+            "column_3_title": "Column 3",
+            "column_3_description": "Pair text with an image to focus on your chosen product, collection, or blog post.",
+            "column_4_enabled": false,
+            "column_4_title": "Column 4",
+            "column_4_description": "Pair text with an image to focus on your chosen product, collection, or blog post.",
+            "column_5_enabled": false,
+            "column_5_title": "Column 5",
+            "column_5_description": "Pair text with an image to focus on your chosen product, collection, or blog post.",
+            "column_6_enabled": false,
+            "column_6_title": "Column 6",
+            "column_6_description": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_4282f8f_G6abV8"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_7MticA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yHhYzp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Sell Your Watch or Jewelry to Us in Boca Raton",
+            "heading_size": "h1"
+          }
+        },
+        "text_Re987q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Selling your valuable items through consignment with us ensures maximum return and minimal effort. Here’s why clients choose Diamonds by Raymond Lee for consigning their gold, luxury watches, and fine jewelry<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yHhYzp",
+        "text_Re987q"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_w9g9xR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RKeWRK": {
+          "type": "heading",
+          "settings": {
+            "heading": "How Our Process Works",
+            "heading_size": "h1"
+          }
+        },
+        "text_nc73ET": {
+          "type": "text",
+          "settings": {
+            "text": "<h2></h2><ol><li><br/>      <strong>Set the strategy & valuation.</strong> <br/>      Schedule a private appointment where our GIA-certified experts determine the best plan of action and an expected selling range, showing real-time market data on screen.<br/>    </li><li><br/>      <strong>Sign transparent paperwork.</strong> <br/>      We prepare an Estate Consignment Agreement that clearly lists your net proceeds and the sale strategy before you leave anything with us.<br/>    </li><li><br/>      <strong>Leave your item for a 90 day listing period.</strong> <br/>      Your watch or jewelry remains fully insured in our 24-hour CCTV monitored vault while we photograph, market, and present it to qualified buyers.<br/>    </li><li><br/>      <strong>Unsold after 90 days?</strong> <br/>      You may pick up the item, extend the listing, or switch to a Jewelry Equity Loan, whichever serves you best.<br/>    </li><li><br/>      <strong>Sale, return window, and payout.</strong> <br/>      Once the piece sells, we honor a 30-day money-back guarantee for the purchaser. After that window closes, we wire the funds, write a check, apply the proceeds toward a previously discussed item, or arrange a trade—in whichever form you choose.<br/>    </li></ol>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RKeWRK",
+        "text_nc73ET"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 24
+      }
+    },
+    "card_list_hfa8nQ": {
+      "type": "card-list",
+      "blocks": {
+        "card_Ggrh4p": {
+          "type": "card",
+          "settings": {
+            "title": "Data driven appraisals",
+            "des": "See current market snapshots, comparable sales, and live pricing feeds for brands like Audemars  Piguet and Rolex before deciding.",
+            "image": "shopify://shop_images/icon_sertificat.png"
+          }
+        },
+        "card_nLKTMr": {
+          "type": "card",
+          "settings": {
+            "title": "Private showroom experience",
+            "des": "Meet discreetly in our private office, never an open retail floor.",
+            "image": "shopify://shop_images/image_3.png"
+          }
+        },
+        "card_kXAHiD": {
+          "type": "card",
+          "settings": {
+            "title": "Instant payout, same day.",
+            "des": "Approve our offer and receive a bank wire or company check before you leave.",
+            "image": "shopify://shop_images/icon_unsertificat.png"
+          }
+        },
+        "card_8JYta6": {
+          "type": "card",
+          "settings": {
+            "title": "Risk free evaluations.",
+            "des": "Every quote is 100  % obligation free with complimentary insurance coverage while your item is in our care.",
+            "image": "shopify://shop_images/icon_colored.png"
+          }
+        },
+        "card_ea6GtF": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Rare Diamond Jewelry",
+            "des": "We have a passion for rare diamond jewelry, from antique pieces tovintage and haute joallerie collections. We appreciate the craftsmanship and are committed to giving you a return that acknowledges the piece’s worth.",
+            "image": "shopify://shop_images/icon_piedestal.png"
+          }
+        },
+        "card_aqbPXg": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Upgrade Your Diamonds",
+            "des": "Diamonds may last forever, but tastes evolve. Take advantage of our upgrade services to find a new diamond that reflects your current preferences, with a 100% credit towards future upgrades.",
+            "image": "shopify://shop_images/icon_diamand-up.png"
+          }
+        }
+      },
+      "block_order": [
+        "card_Ggrh4p",
+        "card_nLKTMr",
+        "card_kXAHiD",
+        "card_8JYta6",
+        "card_ea6GtF",
+        "card_aqbPXg"
+      ],
+      "name": "Card List",
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "enable_slider": false,
+        "slides_per_view": 3,
+        "slides_per_view_mbl": 1.2,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_text_cCEyKf": {
+      "type": "image-text",
+      "blocks": {
+        "image_ripqmj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings.png"
+          }
+        },
+        "text_yiX3pt": {
+          "type": "text",
+          "settings": {
+            "title": "Step 2Modeling and Testing",
+            "content": "Our process begins with a personal consultation. We discuss exactly what you’re envisioning, the essence you want your custom piece to embody, and how it should complement your lifestyle.Next, you can relax—either in our gorgeous, state-of-the-art showroom enjoying one of our local craft beers on tap, or from the comfort of your own home—as you entrust your vision to our experts. Our jewelry designer will refine the rough sketch and present it to you for any changes, questions, or approval. Once we’ve finalized the design together, our team begins sourcing the finest materials. We use only the best platinum and gold, the finest gemstones, and expertly selected conflict-free diamonds. With the materials determined, we’ll provide you with a quote that fits within your budget. Upon your approval, we move on to the next phase.",
+            "label": "",
+            "btn_url": "",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ripqmj",
+        "text_yiX3pt"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_text_eirCWg": {
+      "type": "image-text",
+      "blocks": {
+        "text_PUaHMn": {
+          "type": "text",
+          "settings": {
+            "title": "Step 3<br>Assembling and Polishing",
+            "content": "Finally, our master jeweler casts your custom design, meticulously polishing and placing every detail exactly as you envisioned. Our showroom isn’t just stunning; it also houses our state-of-the-art jewelry workshop, equipped with the finest design and repair technology. While our master jewelers are the heart of our exceptional custom and private label designs, we ensure they have the best tools to create their masterpieces.",
+            "label": "",
+            "btn_url": "",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "image_miE4jB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_7.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_PUaHMn",
+        "image_miE4jB"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_text_tb8DYP": {
+      "type": "image-text",
+      "blocks": {
+        "image_hRenC7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_8.png"
+          }
+        },
+        "text_qd8FET": {
+          "type": "text",
+          "settings": {
+            "title": "Step 4<br>Quality Control and Inspection",
+            "content": "Upon completion, your piece undergoes rigorous quality control, polishing, and inspection by our team of jewelers and diamond experts before we present it to you. <br> <br>Our highly structured and successful process is what we love doing most. We encourage you to be involved and vocal every step of the way. Your opinions are invaluable as we bring your vision to life. We offer a supportive, knowledgeable, and comfortable environment where you can freely express your artistic ideas. Depending on the intricacy of your design, the entire custom jewelry creation process takes between 2 to 6 weeks. Regardless of your budget, our team ofdesigners, experts, and jewelers will work with you to make your dream piece a reality.",
+            "label": "",
+            "btn_url": "",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hRenC7",
+        "text_qd8FET"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#ffffff",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "hero_slide_R74KkV": {
+      "type": "hero-slide",
+      "blocks": {
+        "image_kGFB6E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_1.png",
+            "image_mobile": "shopify://shop_images/Engagement_Rings_2.png",
+            "image_overlay_opacity": 100,
+            "content_position": "bottom_left",
+            "content_position_m": "middle_center",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "center",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "Design Your Dream Jewelry <em>with Us</em>",
+            "subtitle": "We make it easy for you to get exactly what you’re looking for and take great pride in every<em> step of the process. We believe each piece of jewelry tells a unique story, and we provide a</em> beautiful place to facilitate its creation. Contact us today to see your custom jewelry design<em> come to life.</em>",
+            "btn_label1": "SHOP NOW",
+            "btn_url1": "",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kGFB6E"
+      ],
+      "disabled": true,
+      "name": "Hero Slider",
+      "settings": {
+        "full_width": false,
+        "banner_height": "adaptive",
+        "enable_autoslide": true,
+        "show_arrow": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "testimonial_DACFBC": {
+      "type": "testimonial",
+      "blocks": {
+        "text_6JXWky": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Ralph Edwards",
+            "title": "\"Within 30 minutes I had a wire in my account \"",
+            "desc": "<p>I brought in my grandmother’s diamond ring and an old Submariner. Within 30 minutes I had a wire in my account at exactly the price we discussed.</p>"
+          }
+        },
+        "text_KmTtXp": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Eleanor Pena",
+            "title": "\"showed me live market screenshots.\"",
+            "desc": "<p>After visiting three other stores, Diamonds by Raymond Lee was the only one that showed me live market screenshots. Honesty made all the difference.</p>"
+          }
+        },
+        "text_eQFdnE": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Luis, Sept 2024",
+            "title": "\"Payment hit the same day!\"",
+            "desc": "<p>Traded my Daytona on consignment and they exceeded the figure we set by $2k. Payment hit the same day!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6JXWky",
+        "text_KmTtXp",
+        "text_eQFdnE"
+      ],
+      "name": "Custom Review",
+      "settings": {
+        "title": "Testimonials",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 120,
+        "padding_bottom": 120,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 32,
+        "padding_bottom_mobile": 32
+      }
+    },
+    "faq_fBLMQh": {
+      "type": "faq",
+      "blocks": {
+        "item_7YddWj": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_RRVqJ8": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_qf7HjE": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_T8PgTN": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_y8tHe6": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_9XMQMd": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_FkjDRL": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_gUEJJY": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_tBU8hF": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_nnKwTP": {
+          "type": "item",
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_7YddWj",
+        "item_RRVqJ8",
+        "item_qf7HjE",
+        "item_T8PgTN",
+        "item_y8tHe6",
+        "item_9XMQMd",
+        "item_FkjDRL",
+        "item_gUEJJY",
+        "item_tBU8hF",
+        "item_nnKwTP"
+      ],
+      "disabled": true,
+      "name": "FAQ List",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "full_width": false,
+        "bg-color": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "multicolumn_E4ACtG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pBqjAg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3anxJE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dp8pkN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b9nkfE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pBqjAg",
+        "column_3anxJE",
+        "column_Dp8pkN",
+        "column_b9nkfE"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Get Inspired",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 36
+      }
+    },
+    "contact_section_bhayhH": {
+      "type": "contact-section",
+      "name": " Contact Form",
+      "settings": {
+        "full_width": false,
+        "title": "Contact us",
+        "heading": "Get In Touch With Us",
+        "subheading": "If you wish to directly reach us, Please fill out the for below-",
+        "phone_text": "Phone",
+        "liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.4701444275015!2d-80.0769134!3d26.375994499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8e1eb43fa33f7%3A0xf93f5b1aa1b5a4cf!2sDiamonds%20By%20Raymond%20Lee!5e0!3m2!1sen!2sbd!4v1755110780680!5m2!1sen!2sbd\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "phone": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_slide_a3GniJ",
+    "rich_text_NbeBzf",
+    "image_text_X3BBcD",
+    "1755254459511194a4",
+    "rich_text_7MticA",
+    "rich_text_w9g9xR",
+    "card_list_hfa8nQ",
+    "image_text_cCEyKf",
+    "image_text_eirCWg",
+    "image_text_tb8DYP",
+    "hero_slide_R74KkV",
+    "testimonial_DACFBC",
+    "faq_fBLMQh",
+    "multicolumn_E4ACtG",
+    "contact_section_bhayhH"
+  ]
+}

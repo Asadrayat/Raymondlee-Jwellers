@@ -1,0 +1,52 @@
+<style>
+  #goToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #AA7248;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+  }
+
+  #goToTopBtn:hover {
+    background-color: #9d6033;
+  }
+</style>
+
+<button onclick="goToTop()" id="goToTopBtn" title="Go to top">↑</button>
+
+<script>
+  // Get the button
+  let mybutton = document.getElementById("goToTopBtn");
+
+  // When the user scrolls down 20px from the top, show the button
+  window.onscroll = function() {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks the button, scroll to the top
+  function goToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>

@@ -1,0 +1,127 @@
+<style>
+.icons-text-custom--container::-webkit-scrollbar {
+  display: none;
+}
+    .icons-text-custom--container {
+    display: flex;
+    padding-bottom: var(--Other-Gap-9, 16px);
+    align-items: flex-start;
+    gap: var(--Other-Gap-9, 16px);
+    align-self: stretch;
+    border-bottom: 1px solid var(--Color-Gray-200, #E7E5E4);
+    @media(max-width: 1100px){
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow-y: auto;
+    }
+.icons-text-custom--wrapper {
+    @media(max-width: 1100px){
+        min-width: 140px;
+    }
+}
+
+ img {
+    width: 28px;
+    height: 28px;
+}
+.icons-text-custom--wrapper--link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--Other-Gap-5, 8px);
+}
+.text--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Other-Gap-3, 4px);
+}
+p.custom-icon--title {
+color: var(--Color-Dark-500, #0B0404);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+    margin: 0;
+}
+    
+}
+</style>
+
+<div class="icons-text-custom--container">
+    <div class="icons-text-custom--wrapper">
+        <div class="sp-compare-custom-product"></div>
+         <a href="{{ block.settings.link_1 }}" class="icons-text-custom--wrapper--link">
+            <div class="img-wrapper">
+                {% if block.settings.icon_1 != null %}
+                    {{
+                    block.settings.icon_1
+                    | image_url: width: block.settings.icon_1.width
+                    | image_tag: class: 'custom-icon'
+                    }}
+                {% endif %}
+            </div>
+            <div class="text--wrapper">
+                <p class="custom-icon--title">{{ block.settings.title_1 }}</p>
+                {% comment %} <p class="custom-icon--subtitle">{{ block.settings.subtitle_1 }}</p> {% endcomment %}
+            </div>
+        </a> 
+    </div>
+    {% if block.settings.title_2  %}
+    <div class="icons-text-custom--wrapper">
+                <a href="{{ block.settings.link_2 }}" class="icons-text-custom--wrapper--link">
+        <div class="img-wrapper">
+            {% if block.settings.icon_2 != null %}
+                {{
+                block.settings.icon_2
+                | image_url: width: block.settings.icon_2.width
+                | image_tag: class: 'custom-icon'
+                }}
+            {% endif %}
+        </div>
+        <div class="text--wrapper">
+            <p class="custom-icon--title">{{ block.settings.title_2 }}</p>
+            {% comment %} <p class="custom-icon--subtitle">{{ block.settings.subtitle_2 }}</p> {% endcomment %}
+        </div>
+    </a>
+    </div>
+    {% endif %}
+    {% if block.settings.title_3  != blank%}
+    <div class="icons-text-custom--wrapper">
+                <a href="{{ block.settings.link_3 }}" class="icons-text-custom--wrapper--link">
+        <div class="img-wrapper">
+            {% if block.settings.icon_3 != null %}
+                {{
+                block.settings.icon_3
+                | image_url: width: block.settings.icon_3.width
+                | image_tag: class: 'custom-icon'
+                }}
+            {% endif %}
+        </div>
+        <div class="text--wrapper">
+            <p class="custom-icon--title">{{ block.settings.title_3 }}</p>
+            {% comment %} <p class="custom-icon--subtitle">{{ block.settings.subtitle_3 }}</p> {% endcomment %}
+        </div>
+        </a>
+    </div>
+    {% endif %}
+    <div class="icons-text-custom--wrapper">
+        {% render 'share-button', block: block, share_link: share_link %}
+        {% comment %} <a href="{{ block.settings.link_4 }}" class="icons-text-custom--wrapper--link">
+            <div class="img-wrapper">
+                {% if block.settings.icon_4 != null %}
+                    {{
+                    block.settings.icon_4
+                    | image_url: width: block.settings.icon_4.width
+                    | image_tag: class: 'custom-icon'
+                    }}
+                {% endif %}
+            </div>
+            <div class="text--wrapper">
+                <p class="custom-icon--title">{{ block.settings.title_4 }}</p>
+                {% comment %} <p class="custom-icon--subtitle">{{ block.settings.subtitle_1 }}</p> {% endcomment %}
+            </div>
+        </a> {% endcomment %}
+    </div>
+</div>

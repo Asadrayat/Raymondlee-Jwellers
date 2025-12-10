@@ -1,0 +1,855 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_slide_a3GniJ": {
+      "type": "hero-slide",
+      "blocks": {
+        "image_qPQ7Xe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09061_4564a3db-50ca-40e0-8b3a-9b49a74b1d5a.jpg",
+            "image_mobile": "shopify://shop_images/DSC09061_4564a3db-50ca-40e0-8b3a-9b49a74b1d5a.jpg",
+            "image_overlay_opacity": 75,
+            "content_position": "bottom_left",
+            "content_position_m": "bottom_left",
+            "color__info": "#ffffff",
+            "color__info_m": "#ffffff",
+            "info_align": "left",
+            "info_align_m": "left",
+            "pretitle": "",
+            "heading_size": "medium",
+            "title": "<strong>Watch Repair and Servicing Boca Raton</strong>",
+            "subtitle": "Expert watch repair and servicing with master watchmakers, GIA gemologists, and CAD designers trusted for Rolex, Patek, AP, and more.",
+            "btn_label1": "",
+            "btn_url1": "#",
+            "btn_label2": "",
+            "btn_url2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qPQ7Xe"
+      ],
+      "name": "Hero Slider",
+      "settings": {
+        "full_width": false,
+        "banner_height": "adaptive",
+        "enable_autoslide": false,
+        "show_arrow": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0
+      }
+    },
+    "image_text_cCEyKf": {
+      "type": "image-text",
+      "blocks": {
+        "image_ripqmj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/34.png"
+          }
+        },
+        "text_yiX3pt": {
+          "type": "text",
+          "settings": {
+            "title": "Expert Watch Repair & Servicing Trusted for 40+ Years",
+            "content": "Comprehensive watch repair and servicing by master watchmakers precision, transparency, and luxury care for Rolex, Patek, AP, Richard Mille, and more.",
+            "label": "BOOK MY SERVICE",
+            "btn_url": "https://calendly.com/inquiry-diamondsbyraymondlee/30min",
+            "show_full_btn": true,
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ripqmj",
+        "text_yiX3pt"
+      ],
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "rgba(0,0,0,0)",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "custom_steps_4bXUXV": {
+      "type": "custom-steps",
+      "blocks": {
+        "text_nUjjkP": {
+          "type": "text",
+          "settings": {
+            "title": "Master watchmakers",
+            "desc": "<p>On site with decades of experience in high-end brands.<br/><br/></p>"
+          }
+        },
+        "text_G9Mafq": {
+          "type": "text",
+          "settings": {
+            "title": "Same-day turnaround",
+            "desc": "<p>For many services, including cleaning, polishing, and minor repairs.<br/><br/></p>"
+          }
+        },
+        "text_B9iph6": {
+          "type": "text",
+          "settings": {
+            "title": "Complimentary",
+            "desc": "<p> Inspection and ultrasonic cleaning while you wait.<br/><br/></p>"
+          }
+        },
+        "text_fBrdRU": {
+          "type": "text",
+          "settings": {
+            "title": "Fully secure facility",
+            "desc": "<p> With 24-hour CCTV monitoring for total peace of mind.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_nUjjkP",
+        "text_G9Mafq",
+        "text_B9iph6",
+        "text_fBrdRU"
+      ],
+      "name": "Custom Steps",
+      "settings": {
+        "title": "Why Choose Us for Watch Repair and Servicing in Boca Raton",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "image_text_v2_PePiUd": {
+      "type": "image-text-v2",
+      "blocks": {
+        "text_8JQyUi": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "content": "<ol><li><strong>Schedule your appointment</strong> <em>or just swing by, walk-ins welcome.</em><br/></li><li><strong>Visit our private Boca Raton showroom</strong> <em>for a free evaluation, cleaning, and no obligation quote.</em></li><li><strong>Most repairs </strong><em>such as ring sizing and stone tightening are finished within a week, with many simpler jobs ready the same or next day.</em></li></ol>",
+            "label": "BOOK MY SERVICE",
+            "btn_url": "https://calendly.com/inquiry-diamondsbyraymondlee/30min"
+          }
+        },
+        "bullets_m8Fnpi": {
+          "type": "bullets",
+          "settings": {
+            "index": "01",
+            "bullet": "<strong>Schedule your appointment</strong> using the Book My Service button."
+          }
+        },
+        "bullets_jxtqcV": {
+          "type": "bullets",
+          "settings": {
+            "index": "02",
+            "bullet": "<strong>Visit our private Boca Raton showroom</strong> for a free evaluation and detailed quote."
+          }
+        },
+        "bullets_qVt4NL": {
+          "type": "bullets",
+          "settings": {
+            "index": "03",
+            "bullet": "<strong>Enjoy same-day or next day completion</strong> on most work, with text and photo updates sent directly to you."
+          }
+        },
+        "image_dKygTB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/39.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_8JQyUi",
+        "bullets_m8Fnpi",
+        "bullets_jxtqcV",
+        "bullets_qVt4NL",
+        "image_dKygTB"
+      ],
+      "name": "Image Text V2 ",
+      "settings": {
+        "full_width": false,
+        "heading": "How Our Process Works",
+        "subheading": "",
+        "show_top_heading": false,
+        "bg": "rgba(0,0,0,0)",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_text_v2_9b79dx": {
+      "type": "image-text-v2",
+      "blocks": {
+        "image_VqtdWR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07361_310c30b3-90cc-4dbf-ae10-a24999509b33.jpg"
+          }
+        },
+        "text_ULDxEU": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "content": "",
+            "label": "BOOK MY SERVICE",
+            "btn_url": "https://calendly.com/inquiry-diamondsbyraymondlee/30min"
+          }
+        },
+        "bullets_ehhB7t": {
+          "type": "bullets",
+          "settings": {
+            "index": "01",
+            "bullet": "<strong>Metal type and finish</strong> from stainless steel to platinum and gold."
+          }
+        },
+        "bullets_tpLeUK": {
+          "type": "bullets",
+          "settings": {
+            "index": "02",
+            "bullet": "<strong>Stone type and placement</strong> diamond bezels, gemstone hour markers, or decorative accents."
+          }
+        },
+        "bullets_DKb4HC": {
+          "type": "bullets",
+          "settings": {
+            "index": "03",
+            "bullet": "<strong>Complexity of movement</strong> including chronograph, perpetual calendar, and tourbillon mechanisms."
+          }
+        },
+        "bullets_QVnTBC": {
+          "type": "bullets",
+          "settings": {
+            "index": "04",
+            "bullet": "<strong>Laser welding</strong> for precise case and bracelet repairs."
+          }
+        },
+        "bullets_TfVdWk": {
+          "type": "bullets",
+          "settings": {
+            "index": "05",
+            "bullet": "<strong>CAD design</strong> for creating or restoring custom components."
+          }
+        },
+        "bullets_LLhTLV": {
+          "type": "bullets",
+          "settings": {
+            "index": "06",
+            "bullet": "<strong>Polishing techniques</strong> restoring shine while preserving original lines."
+          }
+        },
+        "bullets_RQVNay": {
+          "type": "bullets",
+          "settings": {
+            "index": "07",
+            "bullet": "<strong>Ultrasonic cleaning</strong> removing debris from even the smallest crevices."
+          }
+        }
+      },
+      "block_order": [
+        "image_VqtdWR",
+        "text_ULDxEU",
+        "bullets_ehhB7t",
+        "bullets_tpLeUK",
+        "bullets_DKb4HC",
+        "bullets_QVnTBC",
+        "bullets_TfVdWk",
+        "bullets_LLhTLV",
+        "bullets_RQVNay"
+      ],
+      "name": "Image Text V2 ",
+      "settings": {
+        "full_width": false,
+        "heading": "What Goes Into Expert Watch Repair and Servicing",
+        "subheading": "Every timepiece is unique, requiring the right combination of expertise and tools",
+        "show_top_heading": true,
+        "bg": "rgba(0,0,0,0)",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "image_with_text_overlay_BnYgyc": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "text_DTQiz3": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1610068946.png",
+            "title": "<p>Necklaces that<em> Define Elegance</em></p>",
+            "content": "<p>Sculptured designs that reimagine the elegant <em>fluidity of lilies as they take shape.</em></p>",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "text_YrqrYQ": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Frame_1610068947.png",
+            "title": "<p>Eternal Rings, <em>Timeless Beauty</em></p>",
+            "content": "<p>Jewels that recall the lively<em> silhouette of its namesake bloom.</em></p>",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_DTQiz3",
+        "text_YrqrYQ"
+      ],
+      "disabled": true,
+      "name": "Image Text Overlay",
+      "settings": {
+        "full_width": false,
+        "bg": "#fef9f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "rich_text_XbbNej": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MpVAUb": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Diamonds by Raymond<em> Lee Story</em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_8KifQ9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diamonds by Raymond Lee, a distinguished name in Boca Raton, Florida, is synonymous with ultra-luxury, custom-designed jewelry. For over 40 years, this family-owned and operated business has been a beacon of excellence in the high-end jewelry market, serving a clientele that demands nothing but the best. With a commitment to unparalleled craftsmanship, bespoke designs, and the finest materials, Diamonds by Raymond Lee stands out as a premier destination for those seeking the epitome of luxury in jewelry. At Diamonds by Raymond Lee, we are more than just a jewelry store. We are a family, a community, and a symbol of timeless elegance and beauty.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MpVAUb",
+        "text_8KifQ9"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_text_X3BBcD": {
+      "type": "image-text",
+      "blocks": {
+        "text_UaNeEq": {
+          "type": "text",
+          "settings": {
+            "title": "Bracelets that Embrace Your Style",
+            "content": "Beautifully designed diamond jewellery from the Classic Graff collection honours the purity and fire of the finest Graff diamonds.",
+            "label": "SHOP NOW",
+            "btn_url": "#",
+            "show_full_btn": false,
+            "feature_1_label": "",
+            "feature_2_label": "",
+            "feature_3_label": ""
+          }
+        },
+        "image_FfbxYe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/luxury-gold-diamond-jewelry_2_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_UaNeEq",
+        "image_FfbxYe"
+      ],
+      "disabled": true,
+      "name": "Image Text ",
+      "settings": {
+        "full_width": false,
+        "bg": "#fef9f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "hotspot_dR3PED": {
+      "type": "hotspot",
+      "blocks": {
+        "grid_mCUnz3": {
+          "type": "grid",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_34624316.png",
+            "overlay": 100,
+            "mbl_img": "shopify://shop_images/Image_2_2d6aa8d5-4681-4dda-8406-88ffa0fea7db.png",
+            "overlay_m": 100,
+            "title": "Delicate Designs, Bold Impressions",
+            "des": "Handpicked gemstones and intricate designs for a lifetime of luxury.",
+            "btn": "SHOP NOW",
+            "btn_url": "#",
+            "hotspot_link_1": "shopify://products/10k-yellow-gold-5ctw-natural-diamond-vintage-snake-bracelet",
+            "hotspot_top_1": 25,
+            "hotspot_left_1": 56,
+            "hotspot_top_mbl_1": 30,
+            "hotspot_left_mbl_1": 70,
+            "hotspot_link_2": "",
+            "hotspot_top_2": 50,
+            "hotspot_left_2": 50,
+            "hotspot_top_mbl_2": 50,
+            "hotspot_left_mbl_2": 50,
+            "hotspot_link_3": "",
+            "hotspot_top_3": 50,
+            "hotspot_left_3": 50,
+            "hotspot_top_mbl_3": 50,
+            "hotspot_left_mbl_3": 50
+          }
+        }
+      },
+      "block_order": [
+        "grid_mCUnz3"
+      ],
+      "disabled": true,
+      "name": "Hotspot Section",
+      "settings": {
+        "full_width": false,
+        "alignment": "bottom_left",
+        "mobile_alignment": "bottom_left",
+        "content_alignment": "left",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "testimonial_DACFBC": {
+      "type": "testimonial",
+      "blocks": {
+        "text_6JXWky": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Mark, June 2025",
+            "title": "\"Rolex Restored to Like-New Condition\"",
+            "desc": "<p>“Brought in my Rolex for servicing - it came back looking like the day I bought it. Incredible attention to detail.” </p>"
+          }
+        },
+        "text_KmTtXp": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Sophia, April 2025",
+            "title": "\"Fast, Professional Repair with Sparkling Results\"",
+            "desc": "<p>“Had my diamond watch band repaired here. Fast, professional, and the ultrasonic cleaning made it sparkle again.”</p>"
+          }
+        },
+        "text_eQFdnE": {
+          "type": "text",
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "David, February 2025",
+            "title": "\"Outstanding Custom Work and Patek Repair\"",
+            "desc": "<p>“Custom design and repair work were both outstanding. My Patek has never looked better.” </p>"
+          }
+        },
+        "text_dJhxm6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328_1.png",
+            "username": "Eleanor Pena",
+            "title": "\"Perfect gift for my loved ones!\"",
+            "desc": "<p>The intricate details and premium finish make every piece a memorable keepsake.</p>"
+          }
+        },
+        "text_MbhbJW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "user_img": "shopify://shop_images/Ellipse_328.png",
+            "username": "Ralph Edwards",
+            "title": "\"Luxury and elegance in every piece!\"",
+            "desc": "<p>The attention to detail in every piece is breathtaking—truly a work of art.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_6JXWky",
+        "text_KmTtXp",
+        "text_eQFdnE",
+        "text_dJhxm6",
+        "text_MbhbJW"
+      ],
+      "name": "Custom Review",
+      "settings": {
+        "title": "Recent Client Testimonials",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 32,
+        "padding_bottom_mobile": 32
+      }
+    },
+    "contact_section_XdUzdt": {
+      "type": "contact-section",
+      "disabled": true,
+      "name": " Contact Form",
+      "settings": {
+        "full_width": false,
+        "title": "Contact Information",
+        "heading": "Get In Touch With Us",
+        "subheading": "If you wish to directly reach us, Please fill out the for below-",
+        "phone_text": "Phone",
+        "liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.4701444275015!2d-80.0769134!3d26.375994499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8e1eb43fa33f7%3A0xf93f5b1aa1b5a4cf!2sDiamonds%20By%20Raymond%20Lee!5e0!3m2!1sen!2sbd!4v1755110780680!5m2!1sen!2sbd\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "phone": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "padding_top_m": 32,
+        "padding_bottom_m": 32
+      }
+    },
+    "faq_wi6tWb": {
+      "type": "faq",
+      "blocks": {
+        "item_xWaDfd": {
+          "type": "item",
+          "settings": {
+            "title": "How long does watch repair take?",
+            "text": "<p>Many repairs, such as cleaning, polishing, or battery replacement, can be completed the same day. Complex movement overhauls may take a few days, depending on parts availability.<br/><br/></p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_nCdXW4": {
+          "type": "item",
+          "settings": {
+            "title": "Do you work on vintage watches?",
+            "text": "<p> Yes. Our master watchmakers specialize in vintage timepieces, preserving original components whenever possible while ensuring reliable performance.<br/><br/></p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_rgmjEd": {
+          "type": "item",
+          "settings": {
+            "title": "Can you replace a cracked crystal?",
+            "text": "<p>Absolutely. We source factory-spec crystals for all major brands, ensuring a perfect fit and finish.<br/><br/></p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_Wxb4kh": {
+          "type": "item",
+          "settings": {
+            "title": "What if my watch isn’t keeping time?",
+            "text": "<p>Inaccurate timekeeping often means your watch needs servicing or regulation. We perform diagnostics to pinpoint the issue and restore precision.<br/><br/></p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_EUCqg9": {
+          "type": "item",
+          "settings": {
+            "title": "Do you refinish cases and bracelets?",
+            "text": "<p>Yes. Our polishing techniques restore shine while maintaining original edges and contours, even on delicate finishes.<br/><br/></p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_Jq3pe9": {
+          "type": "item",
+          "settings": {
+            "title": "Can you match missing stones on my watch?",
+            "text": "<p> Yes. Our GIA-certified gemologists source diamonds and gemstones to match your watch’s original look perfectly.<br/><br/></p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_3bh6ik": {
+          "type": "item",
+          "settings": {
+            "title": "Is there a warranty on repairs?",
+            "text": "<p>All watch repairs are backed by our workmanship warranty for your complete peace of mind.<br/><br/></p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_tMUXp7": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_XUEUyw": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        },
+        "item_DiQwXP": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I determine my ring size for online purchases?",
+            "text": "<p>Yes, all of our products are crafted with the highest quality materials and undergo thorough quality checks. We also provide certificates of authenticity for our diamond and gemstone jewelry.</p>",
+            "btn_label": "",
+            "btn_link": "",
+            "text1": "",
+            "btn_label1": "",
+            "btn_link1": "",
+            "text2": "",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_xWaDfd",
+        "item_nCdXW4",
+        "item_rgmjEd",
+        "item_Wxb4kh",
+        "item_EUCqg9",
+        "item_Jq3pe9",
+        "item_3bh6ik",
+        "item_tMUXp7",
+        "item_XUEUyw",
+        "item_DiQwXP"
+      ],
+      "name": "FAQ List",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "full_width": false,
+        "bg-color": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "multicolumn_E4ACtG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pBqjAg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3anxJE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dp8pkN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b9nkfE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pBqjAg",
+        "column_3anxJE",
+        "column_Dp8pkN",
+        "column_b9nkfE"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Get Inspired",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_slide_a3GniJ",
+    "image_text_cCEyKf",
+    "custom_steps_4bXUXV",
+    "image_text_v2_PePiUd",
+    "image_text_v2_9b79dx",
+    "image_with_text_overlay_BnYgyc",
+    "rich_text_XbbNej",
+    "image_text_X3BBcD",
+    "hotspot_dR3PED",
+    "testimonial_DACFBC",
+    "contact_section_XdUzdt",
+    "faq_wi6tWb",
+    "multicolumn_E4ACtG"
+  ]
+}

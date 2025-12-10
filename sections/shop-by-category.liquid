@@ -1,0 +1,348 @@
+{% assign id = section.id %}
+<style>
+  #shopify-section-{{id}} {
+    box-sizing: border-box;
+    margin-top: {{section.settings.margin_top | append: 'px'}};
+    margin-bottom: {{section.settings.margin_bottom | append: 'px'}};
+    padding-top: {{section.settings.padding_top | append: 'px'}};
+    padding-bottom: {{section.settings.padding_bottom | append: 'px'}};
+  }
+  .wrapper-{{ id }} {
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    gap: var(--Spacing-Container-xl);
+    align-items: stretch;
+    @media(max-width: 768px) {
+      grid-template-columns: 1fr;    
+    }
+    .pt__img {
+        height: 100%;
+        img {
+            aspect-ratio: 11/12; 
+        }         
+    }
+  }
+    span.arrow__sbc {
+        background: #fff;
+        padding: 14px;
+        border: 1px solid #E7E5E4;
+        border-radius: 50%;
+        color: #000;
+        transition: all 0.4s ease-in-out;
+        svg {
+          width: 20px;
+          height: 20px;
+            path {
+            stroke: currentColor;
+            }          
+        }
+    }  
+  .category__heading {
+    width: 100%;
+    padding-block: 36px;
+    border-bottom: 1px solid #E7E5E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    cursor: pointer;
+    position: relative;
+    @media(max-width: 768px) {
+      padding-block: 5px 20px;      
+    }
+    &:first-child {
+        padding-top: 0;     
+    }
+   }
+
+  .sec-{{ id }} {
+    .category__wrap {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 0;
+        padding: 0;
+        border-block: 1px solid;
+        margin-bottom: 0;
+        border: none;
+        flex-direction: column;        
+      @media(max-width: 768px) {
+        justify-content: start;
+        /* margin-bottom: 16px; */
+        overflow: auto;
+        scrollbar-width: none;
+      }
+      h3{
+        margin: 0;
+        cursor: pointer;
+        position: relative;
+        color: #000;
+        font-style: normal;
+        font-weight: 400;
+        text-wrap: nowrap;
+      }
+    }
+    .category__heading:hover span.arrow__sbc,
+     .category__heading.active span.arrow__sbc{
+        background: #AA7248;
+        border: 1px solid #AA7248;
+        color: #fff;         
+    }
+    .pt__img {
+      display: none;
+    }
+    .pt__img.active {
+        display: flex;
+    }
+
+
+a.absolute_link {
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    cursor: pointer;
+}
+  }
+
+
+  /* css for hiding block if empty starts */
+  .category__heading-Détails.details, .category__heading-Composition.composition, .category__heading-Utilisation.use, .category__heading-Certificates.certificates {
+    /* display: none; */
+  }
+
+  /* css for hiding block if empty ends */
+
+  @media(max-width: 600px) {
+    #shopify-section-{{id}} {
+      margin-top: {{section.settings.margin_top_m | append: 'px'}};
+      margin-bottom: {{section.settings.margin_bottom_m | append: 'px'}};
+      padding-top: {{section.settings.padding_top_m | append: 'px'}};
+      padding-bottom: {{section.settings.padding_bottom_m | append: 'px'}};
+    }
+  }
+</style>
+
+<div class="sec-{{ id }}">
+  <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+    <h2 class="--section-title center">{{ section.settings.heading }}</h2>
+    <div class="wrapper-{{ id }}">
+      <div class="category__wrap">
+        {% for block in section.blocks %}
+          {% if block.type == 'category' %}
+            {% unless block.settings.text == blank %}
+              <div
+                class="category__heading {% if forloop.first %}active{% endif %} category__heading-{{ block.settings.text }} "
+                data-title="{{ block.settings.text | handleize }}"
+              >
+                <a class="absolute_link" href="{{ block.settings.link }}"></a>
+                <h3>{{ block.settings.text }}</h3>
+                <span class="arrow__sbc">{% render 'all-icons', name: 'btn_arrow' %}</span>
+              </div>
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="content__wrap">
+        {% for block in section.blocks %}
+          {% if block.type == 'tab_content' %}
+            {% unless block.settings.img == blank %}
+              <div
+                class="pt__img"
+                data-title="{{ block.settings.category | handleize }}"
+              >
+                {%unless block.settings.img == blank %}
+                  {{ block.settings.img | image_url: width: block.settings.img.width | image_tag }}
+                {% else %}
+                    {{ block.settings.collection.feature_image | image_url: width: block.settings.collection.feature_image.width | image_tag }}
+                {% endunless %}
+              </div>
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const tabHeadings = document.querySelectorAll(".wrapper-{{ id }} .category__heading");
+    const contents = document.querySelectorAll(".wrapper-{{ id }} .pt__img");
+    if (tabHeadings.length && contents.length) {
+      tabHeadings[0].classList.add("active");
+      contents[0].classList.add("active");
+    }
+    tabHeadings.forEach(tabHeading => {
+      tabHeading.addEventListener("mouseover", () => {
+        // Remove active class from all headings and contents
+        tabHeadings.forEach(th => th.classList.remove("active"));
+        contents.forEach(content => content.classList.remove("active"));
+
+        // Add active class to clicked tab and matching content
+        tabHeading.classList.add("active");
+        contents.forEach(content => {
+          if (content.dataset.title === tabHeading.dataset.title ) {
+            content.classList.add("active");
+          }
+        });
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Shop By Category",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full Width Section",
+      "default": false
+    },
+    {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Shop By Category"
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing Desktop"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 48
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing Mobile"
+    },
+    {
+      "type": "range",
+      "id": "margin_top_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_top_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_m",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 32
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "Category",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Category Title"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Category Link"
+        },
+      ]
+    },
+    {
+      "type": "tab_content",
+      "name": "Tab Content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "category",
+          "label": "Category Title",
+          "info": "Name same as category block"
+        },
+        {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shop By Category"
+    }
+  ]
+}
+{% endschema %}
