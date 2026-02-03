@@ -61,4 +61,5 @@ Live site: https://raymondleejewelers.net
 | Animations       | GSAP (optional), native CSS transitions |
 | Accessibility    | ARIA attributes, keyboard navigation  |
 
-## Project Structure (simplified)
+
+
